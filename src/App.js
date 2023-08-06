@@ -1,59 +1,37 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Table from 'react-bootstrap/Table';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function App() {
   return (
-        <Table>
-      <thead>
-        <tr >
-          <td className='header-content' colSpan={7}>Time Table</td>
-        </tr>
-      </thead>
-      <tbody>
-        <tr className='aside-content '>
-          <td  rowspan={7}>Hours</td>
-        </tr>
-        <tr >
-          <td className='middle-content'>Mon</td>
-          <td className='middle-content'>Tue</td>
-          <td className='middle-content'>Wed</td>
-          <td className='middle-content'>Thu</td>
-          <td className='middle-content'>Fri</td>
-        </tr>
-        <tr>
-          <td className='middle-content'>Science</td>
-          <td className='middle-content'>maths</td>
-          <td className='middle-content'>Science</td>
-          <td className='middle-content'>maths</td>
-          <td className='middle-content'>arts</td>
-        </tr>
-         <tr>
-          <td className='middle-content'>social</td>
-          <td className='middle-content'>history</td>
-          <td className='middle-content'>english</td>
-          <td className='middle-content'>social</td>
-          <td className='middle-content'>soprts</td>
-        </tr>
-         <tr>
-          <td className='lunch-content' colSpan={5}>Lunch</td>
-         </tr>
-         <tr>
-          <td className='middle-content'>Science</td>
-          <td className='middle-content'>maths</td>
-          <td className='middle-content'>Science</td>
-          <td className='middle-content'>maths</td>
-          <td className='middle-content' rowSpan={2}>Project</td>
-        </tr>
-         <tr>
-          <td className='middle-content'>social</td>
-          <td className='middle-content'>history</td>
-          <td className='middle-content'>english</td>
-          <td className='middle-content'>social</td>
-        </tr>
-      </tbody>
-    </Table>
+   <Container className='container'>
+      <div className='box-content'>
+    <header className='header-content'>Grey</header>
+    <div className='middle-content'>
+      <aside className='rightside-content'>Menu<div>Panel</div></aside>
+      <section className='section-content'>Blue</section>
+      <article className='articlebox-content'>
+        <div className='rightarticle-content'>Red</div>
+         <div className='leftarticle-content'>Orange</div>
+      </article>
+      <footer className='footer-content'>Footer</footer>
+    </div>
+  </div> 
+      {/* <Row> 
+        <Col className='header-content'>Grey</Col>
+      </Row>
+      <Row className='middle-content'>
+        <Col className='rightside-content'>Menu<span>Panel</span></Col>
+        <Col className='leftside-content'>Blue</Col>      
+      </Row>
+      <Row>
+        <Col className='footer-content'>Footer</Col>
+      </Row> */}
+    </Container>
+
 
   );
 }

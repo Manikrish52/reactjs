@@ -1,3 +1,10 @@
+.box-content{
+  width: 70%;
+  height: 700px;
+  margin: auto;
+  margin-top: 20px; 
+  background-color: red;
+}
 .header-content{
   width: 100%;
   background-color: grey;
@@ -8,40 +15,8 @@
   font-size: 20px;
   font-weight: 500;
 }
-.middle-content{
-  height: 500px;
-  background-color: pink;
-}
-/* .rightside-content{
-width: 100%;
-background-color: skyblue;
-color: white;
-font-family: 500;
-text-align: center;
 
-} */
-.leftside-content{
-  width: 100%;
-  background-color: blue;
-  height: 250px;
-}
-.footer-content{
-  height: 100px;
-  background-color: rgb(39, 28, 28);
-  color: white;
-font-family: 500;
-text-align: center;
-padding-top: 20px ;
-}
 
-/*  */
-.box-content{
-  width: 70%;
-  height: 700px;
-  margin: auto;
-  margin-top: 20px; 
-  background-color: red;
-}
 .rightside-content{
 width: 50%;
 height: 100%;
@@ -82,8 +57,11 @@ text-align: center;
   float: left;
 }
 .footer-content{
-  width: 100%;
   height: 100px;
-  background-color: rgb(26, 22, 22);
+  background-color: rgb(39, 28, 28);
   color: white;
+font-family: 500;
+text-align: center;
+padding-top: 20px ;
 }
+

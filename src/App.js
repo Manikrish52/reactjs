@@ -2,12 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 
 function App() {
   return (
-   <Container className='container'>
+   <Container >
       <div className='box-content'>
     <header className='header-content'>Grey</header>
     <div className='middle-content'>
@@ -20,16 +19,7 @@ function App() {
       <footer className='footer-content'>Footer</footer>
     </div>
   </div> 
-      {/* <Row> 
-        <Col className='header-content'>Grey</Col>
-      </Row>
-      <Row className='middle-content'>
-        <Col className='rightside-content'>Menu<span>Panel</span></Col>
-        <Col className='leftside-content'>Blue</Col>      
-      </Row>
-      <Row>
-        <Col className='footer-content'>Footer</Col>
-      </Row> */}
+  
     </Container>
 
 

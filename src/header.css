@@ -1,3 +1,95 @@
 .rightside-navbar{
-    background-color: rgb(9, 9, 34);
+  padding:0px 10px 0px 10px!important;
+   margin: auto;
+   background-color: #253237;
+   justify-content: space-between !important;
+   display: flex;
 }
+.rightside-title{
+    color: #fff !important;
+}
+.leftside-lables{
+    color: #fff !important;
+   
+}
+.leftside-lables:hover{
+    color: #0ac8c6 !important;
+}
+#basic-nav-dropdown{
+    color: white;
+}
+.uroicon{
+    font-size: 15px !important; 
+}
+
+.wishlist-lable{
+  display: flex;
+
+}
+.hearticon{
+    color: white;
+    padding-top: 7px;
+    margin-top: 5px;
+}
+.hearticon:hover{
+    color: #0ac8c6;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+   .rightside-navbar{
+   background-color: #253237;
+   justify-content: center !important;
+   display: flex;
+}
+.left-side{
+    visibility: hidden;
+}
+}
+
+@media only screen and (max-width: 425px) {}
+
+@media only screen and (max-width: 375px) {}
+
+@media only screen and (max-width: 320px) {}
+
+@media only screen and (min-width: 600px) {
+       .rightside-navbar{
+   background-color: #253237;
+   justify-content: center !important;
+   display: flex;
+}
+.left-side{
+    visibility: hidden;
+}
+}
+
+@media only screen and (min-width: 768px) {
+ 
+}
+
+@media only screen and (min-width: 992px) {
+       .rightside-navbar{
+  padding:0px 10px 0px 10px!important;
+   margin: auto;
+   background-color: #253237;
+   justify-content: space-between !important;
+   display: flex;
+}
+.left-side{
+    visibility: inherit;
+}
+}
+
+@media only screen and (min-width : 1200px) {}
+
+@media only screen and (min-width : 1366px) {}
+
+@media only screen and (min-width : 1440px) {}
+
+@media only screen and (min-width : 1600px) {}
+
+@media only screen and (min-width : 1920px) {}

@@ -4,10 +4,13 @@
    background-color: #253237;
    justify-content: space-between !important;
    display: flex;
+
 }
 .rightside-title{
     color: #fff !important;
+    font-size: 15px !important;
 }
+
 .leftside-lables{
     color: #fff !important;
    
@@ -15,29 +18,42 @@
 .leftside-lables:hover{
     color: #0ac8c6 !important;
 }
-#basic-nav-dropdown{
-    color: white;
-}
+
 .uroicon{
     font-size: 15px !important; 
 }
 
-.wishlist-lable{
-  display: flex;
 
-}
 .hearticon{
     color: white;
-    padding-top: 7px;
-    margin-top: 5px;
+    font-size: 20px !important;
+    padding-right: 5px !important;
 }
 .hearticon:hover{
     color: #0ac8c6;
 }
+.ShuffleIcon{
+    color: #fff;
+    font-size: 20px !important;
+    padding-right: 5px !important;
+}
+.ShuffleIcon:hover{
+    color: #0ac8c6;
+}
 
-
-
-
+#dropdown-content{
+    color: white ;
+}
+#dropdown-content:hover{
+    color: #0ac8c6;
+    
+}
+.navdropdown-content{
+    font-size: 10px;
+}
+.dropdown-content{
+    width: 50%;
+}
 
 @media only screen and (max-width: 600px) {
    .rightside-navbar{

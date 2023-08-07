@@ -1,0 +1,72 @@
+ 
+.logo-content{
+    background-image: url(./image/logo1.webp) ;
+    width: 20%;
+    height: 50px;
+    background-repeat: no-repeat;
+    
+ 
+}
+.navbar-content{
+  padding-top: 20px !important;
+  margin: auto;
+}
+#middle-nav-dropdown{
+  
+    color: rgb(18, 17, 17);
+    font-weight: 500;
+    padding: 0px 30px 0px 0px ;
+       
+}
+#middle-nav-dropdown:hover{
+    color: #198754;
+}
+#contect-content{
+     font-size: 20px;
+     color: black;
+}
+
+.image-content{
+    position: relative;
+
+    padding-left:40px ;
+   
+    background-repeat: no-repeat;
+    background-image: url(./image/download.png);
+}
+.contact-number{
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+    
+}
+.call-content{
+    padding-right: 30px !important;
+}
+.amount-content{
+    color: black;
+    font-weight: 600;
+}
+.shoppingbag:hover{
+    color: #198754 !important;
+}
+.amount-content:hover{
+    color: #198754;
+}
+.shoppingbag{
+    font-size: 20px !important;
+    color: rgb(32, 28, 28) !important;
+    
+}
+.searchicon{
+    font-size: 40px !important;
+   
+}
+.searchicon:hover{
+    color: #198754;
+}
+.search-containt{
+    display: flex;
+    height: 30px;
+    visibility: hidden;
+}

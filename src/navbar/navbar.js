@@ -29,14 +29,20 @@ function Navbarheader() {
             {/* home */}
             
            <NavDropdown title="Home" id="middle-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Home Organic</NavDropdown.Item>
+               <NavDropdown.Divider className='navdrop-divider' />
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                Home Cosmetic
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
+               <NavDropdown.Divider className='navdrop-divider' />
+              <NavDropdown.Item href="#action/3.3">Home Digital</NavDropdown.Item>
+              <NavDropdown.Divider className='navdrop-divider' />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                Home Furniture
+              </NavDropdown.Item>
+               <NavDropdown.Divider className='navdrop-divider' />
+              <NavDropdown.Item href="#action/3.4">
+                Home Medical
               </NavDropdown.Item>
             </NavDropdown>
                

@@ -40,12 +40,16 @@
     font-weight: 700;
     
 }
+.contact-number:hover{
+    color: #198754;
+}
 .call-content{
-    padding-right: 30px !important;
+    padding-left: 20px !important;
 }
 .amount-content{
-    color: black;
+    color:rgb(18, 17, 17);
     font-weight: 600;
+    font-size: 25px;
 }
 .shoppingbag:hover{
     color: #198754 !important;
@@ -54,7 +58,7 @@
     color: #198754;
 }
 .shoppingbag{
-    font-size: 20px !important;
+    font-size: 25px !important;
     color: rgb(32, 28, 28) !important;
     
 }
@@ -70,3 +74,27 @@
     height: 30px;
     visibility: hidden;
 }
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 425px) {}
+
+@media only screen and (max-width: 375px) {}
+
+@media only screen and (max-width: 320px) {}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width : 1200px) {}
+
+@media only screen and (min-width : 1366px) {}
+
+@media only screen and (min-width : 1440px) {}
+
+@media only screen and (min-width : 1600px) {}
+
+@media only screen and (min-width : 1920px) {}

@@ -1,10 +1,10 @@
 .rightside-navbar{
-  padding:0px 10px 0px 10px!important;
+  padding: 0px 10px 0px 10px!important;
    margin: auto;
    background-color: #253237;
    justify-content: space-between !important;
    display: flex;
-
+   color: #FFFFFF; 
 }
 .rightside-title{
     color: #fff !important;
@@ -49,12 +49,28 @@
     
 }
 .navdropdown-content{
-    font-size: 10px;
+    font-size: 15px;
 }
 .dropdown-content{
     width: 50%;
 }
-
+.line-content{
+    color: #fff;
+    padding: 7px 10px 0px 20px;
+    
+    font-size: 13px;
+}
+.divider-content{
+    width: 80%;
+    margin: auto !important;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    margin-top: var(--bs-dropdown-spacer);
+    height: 100px;
+    border:none;
+    
+}
 @media only screen and (max-width: 600px) {
    .rightside-navbar{
    background-color: #253237;
@@ -65,12 +81,6 @@
     visibility: hidden;
 }
 }
-
-@media only screen and (max-width: 425px) {}
-
-@media only screen and (max-width: 375px) {}
-
-@media only screen and (max-width: 320px) {}
 
 @media only screen and (min-width: 600px) {
        .rightside-navbar{
@@ -83,9 +93,6 @@
 }
 }
 
-@media only screen and (min-width: 768px) {
- 
-}
 
 @media only screen and (min-width: 992px) {
        .rightside-navbar{
@@ -99,13 +106,3 @@
     visibility: inherit;
 }
 }
-
-@media only screen and (min-width : 1200px) {}
-
-@media only screen and (min-width : 1366px) {}
-
-@media only screen and (min-width : 1440px) {}
-
-@media only screen and (min-width : 1600px) {}
-
-@media only screen and (min-width : 1920px) {}

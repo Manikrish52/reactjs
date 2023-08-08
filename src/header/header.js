@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
+import './header.css';
 import EuroIcon from '@mui/icons-material/Euro';
 import ShuffleIcon from '@mui/icons-material/Shuffle';
 import Navbar from 'react-bootstrap/Navbar';

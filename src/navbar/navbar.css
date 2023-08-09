@@ -17,10 +17,21 @@
     font-weight: 500;
     padding: 0px 30px 0px 0px ;
     
+    
 }
 #middle-nav-dropdown:hover{
     color: #198754;
 }
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    margin-top: var(--bs-dropdown-spacer);
+    height: auto;
+    
+    border: none;
+    margin-right: 0px;
+    box-shadow:  0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+/* content */
 .contact-content{
 
     color: rgb(18, 17, 17);
@@ -50,14 +61,13 @@
 .call-content{
     padding-left: 20px !important;
 }
+/* rs */
 .amount-content{
     color:rgb(18, 17, 17);
     font-weight: 600;
     font-size: 25px;
 }
-.shoppingbag:hover{
-    color: #198754 !important;
-}
+
 .amount-content:hover{
     color: #198754;
 }
@@ -66,6 +76,10 @@
     color: rgb(32, 28, 28) !important;
     
 }
+.shoppingbag:hover{
+    color: #198754 !important;
+}
+/* search */
 .searchicon{
     font-size: 40px !important;
    
@@ -82,15 +96,19 @@
     width: 80%;
     margin: auto;
     
+    /*home  */
 }
 .action-home{
     color: black;
+    display: flex;
+    justify-content: space-between;
 }
 .action-home:hover{
     color: #198754 !important;
 }
 .arrowforwardicion{
-    font-size: 15px !important;
+    font-size: 20px !important;
+    padding-top: 7px;
 }
 .arrowforwardicion:hover{
     color: #198754;
@@ -100,6 +118,7 @@
 /* shop */
 .card-content{
     width: 50rem;
+    
 }
 .listgroup-content{
     justify-content: space-between;

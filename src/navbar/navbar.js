@@ -29,23 +29,26 @@ function Navbarheader() {
           <Nav>
             {/* home */}
             
-           <NavDropdown title="Home" id="middle-nav-dropdown" >
-              <NavDropdown.Item className='action-home' href="#action/1.1">Home Organic      
+           <NavDropdown title="Home" id="middle-nav-dropdown"  >
+              <NavDropdown.Item className='action-home' href="#action/1.1">Home Organic   
+               
+
+
               <ArrowForwardIosIcon className='arrowforwardicion'/> 
               </NavDropdown.Item> 
               <NavDropdown.Divider className='navdrop-divider' />
-              <NavDropdown.Item href="#action/1.2">
+              <NavDropdown.Item className='action-home' href="#action/1.2">
                 Home Cosmetic <ArrowForwardIosIcon className='arrowforwardicion'/>
                 </NavDropdown.Item>
                <NavDropdown.Divider className='navdrop-divider' />
-              <NavDropdown.Item href="#action/1.3">Home Digital <ArrowForwardIosIcon className='arrowforwardicion'/> 
+              <NavDropdown.Item className='action-home' href="#action/1.3">Home Digital <ArrowForwardIosIcon className='arrowforwardicion'/> 
               </NavDropdown.Item>
-              <NavDropdown.Divider className='navdrop-divider' />
-              <NavDropdown.Item href="#action/1.4">
+              <NavDropdown.Divider  className='navdrop-divider' />
+              <NavDropdown.Item className='action-home' href="#action/1.4">
                 Home Furniture<ArrowForwardIosIcon className='arrowforwardicion'/>
                 </NavDropdown.Item>
                <NavDropdown.Divider className='navdrop-divider' />
-              <NavDropdown.Item href="#action/1.5">
+              <NavDropdown.Item className='action-home' href="#action/1.5">
                 Home Medical<ArrowForwardIosIcon className='arrowforwardicion'/>
                 </NavDropdown.Item>
              

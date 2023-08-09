@@ -22,7 +22,12 @@
 .uroicon{
     font-size: 15px !important; 
 }
-
+.compare-content{
+    color: #fff;
+}
+.compare-content:hover{
+    color: #0ac8c6 !important;
+}
 
 .hearticon{
     color: white;

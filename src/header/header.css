@@ -87,6 +87,11 @@
 .left-side{
     visibility: hidden;
 }
+.rightside-title{
+    color: #fff !important;
+    font-size: 15px !important;
+    padding-left: 80px !important;
+}
 }
 
 @media only screen and (min-width: 600px) {
@@ -97,6 +102,11 @@
 }
 .left-side{
     visibility: hidden;
+}
+.rightside-title{
+    color: #fff !important;
+    font-size: 15px !important;
+    padding-left: 35px !important;
 }
 }
 

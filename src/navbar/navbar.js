@@ -18,6 +18,7 @@ function Navbarheader() {
   return (
       <Navbar expand="lg" className="navbarheader-content">
       <Container fluid className='navbar-container'>
+        
         <Navbar.Brand className='logo-content' href="#">
             
         </Navbar.Brand>
@@ -29,7 +30,7 @@ function Navbarheader() {
             <div className='navbar-content'>
           <Nav>
                
-            
+            <div className='middle-navbar'>
 
             {/* home */}
             
@@ -193,9 +194,9 @@ function Navbarheader() {
             </NavDropdown>
                {/* contact us */}
                  <div className='contact-content'>Contact</div>
-                
+                </div>
                    {/* search */}
-        
+        <div className='rightside-content'>
          <div className='search-containt'>
           <Form className="d-flex">
             <Form.Control
@@ -227,9 +228,11 @@ function Navbarheader() {
             
             </div>
                 </Nav.Link>
+                </div>
             </div>
           </Nav>   
           </div>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>

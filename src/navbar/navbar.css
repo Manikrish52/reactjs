@@ -24,6 +24,9 @@
 #middle-nav-dropdown:hover{
     color: #198754;
 }
+
+
+
 .dropdown-menu{
     --bs-dropdown-link-active-bg:none !important;
     --bs-dropdown-link-hover-bg: none !important;
@@ -55,6 +58,13 @@
    
 } */
 
+
+.middle-navbar{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    
+}
 /* content */
 .contact-content{
 
@@ -261,7 +271,9 @@
     color: #198754;
       transform: translate(10px, 0%);
 }
-
+.rightside-content{
+    display: flex;
+}
 
 
 
@@ -298,7 +310,7 @@
 
     color: rgb(18, 17, 17);
     font-weight: 600;
-    padding: 10px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px ;
 }
 .contact-content:hover{
     color: #198754;
@@ -349,7 +361,7 @@
 
     color: rgb(18, 17, 17);
     font-weight: 600;
-    padding: 10px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px ;
 }
 .contact-content:hover{
     color: #198754;
@@ -360,7 +372,14 @@
      .navbar-container{
     flex-direction:unset !important;
 }
-
+.logo-content{
+    background-image: url(./navbar.img/logo1.webp) ;
+    width: 20%;
+    height: 50px;
+    background-repeat: no-repeat;
+    
+ 
+}
 }
 
 @media only screen and (min-width : 1200px) {}

@@ -11,7 +11,9 @@ import Card from 'react-bootstrap/Card';
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ListGroup from 'react-bootstrap/ListGroup';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import InputGroup from 'react-bootstrap/InputGroup';
+import { ListItem } from '@mui/material';
+import FiberNewIcon from '@mui/icons-material/FiberNew';
 
 
 function Navbarheader() {
@@ -30,8 +32,8 @@ function Navbarheader() {
             <div className='navbar-content'>
           <Nav>
                
-            <div className='middle-navbar'>
-
+          
+           <div className='middle-content'>
             {/* home */}
             
            <NavDropdown title="Home" id="middle-nav-dropdown"  >
@@ -86,7 +88,8 @@ function Navbarheader() {
                 {/* <ArrowForwardIosIcon className='arrowforwardicion'/> */}
                   </NavDropdown>  
                   <NavDropdown.Divider className='navdrop-divider' />
-                 <div className='single-product'>Single Product</div>
+                 <div className='single-product'>Single Product
+                 <FiberNewIcon/></div>
                  </NavDropdown>
                
                {/* shop */}
@@ -97,6 +100,7 @@ function Navbarheader() {
                     <Card.Title>
                       
                        <ListGroup>
+                        
                         <div className='listgroup-content'>
                        <ListGroup.Item className='shop-item'>
                         <div className='shop-list'>
@@ -107,6 +111,7 @@ function Navbarheader() {
                          <p className='shop-opction'>Shop Grid Right Sidebar</p>
                         </div>
                       </ListGroup.Item>
+                      
                        <ListGroup.Item className='shop-item'>
                           <div className='shop-list'>
                         <h4 className='shop-title'>Shop List</h4>
@@ -194,24 +199,57 @@ function Navbarheader() {
             </NavDropdown>
                {/* contact us */}
                  <div className='contact-content'>Contact</div>
-                </div>
+              </div>
                    {/* search */}
-        <div className='rightside-content'>
+              <div className='search-box'>
+            <NavDropdown id='search-content'>
+            <InputGroup className='searchbox-content'>
+              <Form.Control
+          placeholder="Recipient's username"
+          aria-label="Recipient's username"
+          aria-describedby="basic-addon2"
+        />
+        <NavDropdown>
+
+          <ListGroup className='allcategoties-lists'>
+            <ListItem> All Categoties</ListItem>
+            <ListItem> Fresh Food</ListItem>
+            <ListItem> -- Fresh Fruit</ListItem>
+            <ListItem> ---- Bananas</ListItem>
+            <ListItem> ---- Apples & Pears</ListItem>
+            <ListItem> ---- Berries & Cherries</ListItem>
+            <ListItem> ---- Oranges & Citrus Fruit</ListItem>
+            <ListItem> ---- Graps</ListItem>
+            <ListItem> ---- Fresh Vegetables</ListItem>
+            <ListItem> ---- Potatoes & Sweet Potatoes</ListItem>
+            <ListItem> ---- Onions & Leeks</ListItem>
+            <ListItem> ---- Carrots & Root Vegetables</ListItem>
+            <ListItem> ---- Broccoli & Cauliflower</ListItem>
+            <ListItem> ---- Cabbages & Greens</ListItem>
+            <ListItem> -- Fresh Salad & Dips</ListItem>
+            <ListItem> ---- Lettuce & Salad bags</ListItem>
+            <ListItem> ---- Tomatoes</ListItem>
+            <ListItem> ---- Cucumber</ListItem>
+            <ListItem> ---- Celery</ListItem>
+            <ListItem> ----  Peppers</ListItem>
+            <ListItem> -- Milk, Butter & Eggs</ListItem>
+            <ListItem> ---- Milk</ListItem>
+            <ListItem> ---- Spreads & Nargarine</ListItem>           
+
+          </ListGroup>
+
+
+
+        </NavDropdown>
+
+        <InputGroup.Text>< SearchIcon className='searchicon-bar'/></InputGroup.Text>
+      </InputGroup>
+                </NavDropdown>
          <div className='search-containt'>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-              
-            />
-            
-            < Button variant="outline-success">Search</Button>
-          </Form>
+         
           </div>
            < SearchIcon className='searchicon'/>
-       
+             </div>
            {/* call */}
            <div className='call-content'>
             <Nav.Link > 
@@ -220,16 +258,18 @@ function Navbarheader() {
             </div>
                 </Nav.Link>
             </div>
-         <div className='call-content'>
+         {/* <div className='call-content'> */}
             <Nav.Link > 
-            <div className='amount-content'> <ShoppingBagOutlinedIcon className='shoppingbag'  /><div className='number-two'>2</div>
+            <div className='amount-content'> <ShoppingBagOutlinedIcon className='shoppingbag'  /> <div className='numbertwo-content'>
+                <div className='number-two'>2</div></div>
             
             <div className='number-content'>$20.00</div>
             
             </div>
                 </Nav.Link>
-                </div>
-            </div>
+               
+                {/* </div> */}
+          
           </Nav>   
           </div>
           

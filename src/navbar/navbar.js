@@ -99,7 +99,7 @@ function Navbarheader() {
               <NavDropdown title="Shop" id="middle-nav-dropdown">
                        <Card className='card-content'>
                   
-                    <Card.Body>
+                    <Card.Body className='card-body'>
                      <Card.Title>
                       
                         <ListGroup>

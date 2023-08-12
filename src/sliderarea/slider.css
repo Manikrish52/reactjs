@@ -1,3 +1,7 @@
+.carousel {
+    position: relative;
+    height: 700px;
+}
 .carousel-content{
     height: 700px;
 }
@@ -25,7 +29,7 @@
     box-sizing: content-box;
     flex: 0 1 auto;
     width: 15px;
-    height: 15px;
+    /* height: 15px; */
     padding: 0;
     border-radius: 100%;
     margin-right: 3px;
@@ -153,9 +157,14 @@
 
 
 @media only screen and (max-width: 600px) {
+    .carousel {
+    position: relative;
+    height: 400px;
+}
+
     .top{
         width: 20rem;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
     color: #253237;
@@ -171,7 +180,7 @@
     
 .middle{
     width: 20rem;
-        font-size: 20px;
+        font-size: 27px;
     font-weight: 600;
     color: #253237;
     margin-bottom: 20px;
@@ -179,7 +188,7 @@
 }
 .bottom{
     width: 20rem;
-    font-size: 15px;
+    font-size: 17px;
     margin-bottom: 30px;
     font-weight: 400;
     color: #555;
@@ -187,24 +196,42 @@
 }
 .firstslide_content{
         width: 20rem;
-    bottom: 58%;
+    bottom: 35%;
     left: 20px;
 }
 .secondslide_content{
         width: 20rem;
-    bottom: 58%;
+    bottom: 35%;
     left: 20px;
 }
-
+#firstimage-content{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+#firstimage-content{
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+#secoondimage-content{
+       width: 100%;
+    height: 400px;
+        display: block;
+}
+#secoondimage-content img{
+        width: 100%;
+    height: 400px;
+        display: block;
+}
 }
 
-@media only screen and (max-width: 425px) {}
-
-@media only screen and (max-width: 375px) {}
-
-@media only screen and (max-width: 320px) {}
 
 @media only screen and (min-width: 600px) {
+      .carousel {
+    position: relative;
+    height: 500px;
+}
     .firstslide_content{
         width: 20rem;
     bottom: 58%;
@@ -215,9 +242,33 @@
     bottom: 58%;
     left: 20px;
 }
+#firstimage-content{
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+#firstimage-content{
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+#secoondimage-content{
+       width: 100%;
+    height: 500px;
+        display: block;
+}
+#secoondimage-content img{
+        width: 100%;
+    height: 500px;
+        display: block;
+}
 }
 
 @media only screen and (min-width: 768px) {
+       .carousel {
+    position: relative;
+    height: 500px;
+}
     .firstslide_content{
         width: 40rem;
     bottom: 58%;
@@ -230,8 +281,9 @@
       top: 20%;
     left: 30px;
 }
-/* .top{
-    font-size: 13px;
+
+.top{
+    font-size: 25px;
     font-weight: 400;
     text-transform: uppercase;
     color: #253237;
@@ -242,23 +294,68 @@
 }
     
 .middle{
-        font-size: 30px;
+        font-size: 40px;
     font-weight: 600;
     color: #253237;
     margin-bottom: 25px;
     line-height: 1;
 }
 .bottom{
-            font-size: 15px;
+            font-size: 20px;
     margin-bottom: 30px;
     font-weight: 400;
     color: #555;
 
-} */
+}
+#firstimage-content{
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+#firstimage-content{
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+#secoondimage-content{
+       width: 100%;
+    height: 500px;
+        display: block;
+}
+#secoondimage-content img{
+        width: 100%;
+    height: 500px;
+        display: block;
+}
 
 }
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  .carousel {
+    position: relative;
+    height: 700px;
+}
+#firstimage-content{
+    display: block;
+    width: 100%;
+    height: 700px;
+}
+#firstimage-content{
+    width: 100%;
+    height: 700px;
+    display: block;
+}
+#secoondimage-content{
+       width: 100%;
+    height: 700px;
+        display: block;
+}
+#secoondimage-content img{
+        width: 100%;
+    height: 700px;
+        display: block;
+}
+}
 
 @media only screen and (min-width : 1200px) {}
 
@@ -269,3 +366,4 @@
 @media only screen and (min-width : 1600px) {}
 
 @media only screen and (min-width : 1920px) {}
+

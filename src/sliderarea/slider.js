@@ -7,7 +7,8 @@ import SliderImg2 from '../sliderarea/sliderimage/sample-2.webp'
 
 function Slider() {
   return (
-        <Carousel data-bs-theme="dark" className='carousel-content'>
+   
+        <Carousel data-bs-theme="dark" className='carousel-bodyt'>
       <Carousel.Item>
         <img
         id='firstimage-content'
@@ -46,7 +47,7 @@ function Slider() {
     
     </Carousel>
 
-    
+   
   )
 }
 

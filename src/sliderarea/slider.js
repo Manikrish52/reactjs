@@ -30,6 +30,7 @@ function Slider() {
       </Carousel.Item>
       <Carousel.Item>
         <img
+        id='secoondimage-content'
           className="slider2"
           src={SliderImg2}
           alt="Second slide"

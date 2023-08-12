@@ -527,8 +527,8 @@ display: flex;
 }
 
 @media only screen and (min-width: 992px) {
-     .navbar-container{
-    flex-direction:unset !important;
+    .navbar-body {
+    flex-direction: inherit;
 }
 .logo-content{
     background-image: url(./navbar.img/logo1.webp) ;
@@ -586,7 +586,9 @@ display: flex;
 }
 }
 
-@media only screen and (min-width : 1366px) {}
+@media only screen and (min-width : 1366px) {
+    
+}
 
 @media only screen and (min-width : 1440px) {}
 

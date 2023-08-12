@@ -4,6 +4,7 @@ import './sliderimage/sample-1.webp'
 import Carousel from 'react-bootstrap/Carousel';
 import SliderImg from "../sliderarea/sliderimage/sample-1.webp"
 import SliderImg2 from '../sliderarea/sliderimage/sample-2.webp'
+import Button from 'react-bootstrap/Button';
 
 function Slider() {
   return (
@@ -19,13 +20,14 @@ function Slider() {
         <Carousel.Caption className='firstslide_content'>
           <div className='firstcarousel-title'>
           <h5 className='top'>NOT FRIED NOT BAKED</h5>
-          <div>
+          
            <p className='middle'> Freeze Dried Friits
             <br/>
             Pineapple Coconut
            </p>
            <p className='bottom'>Free  Shipping On Qualified Orders $35</p>
-            </div>
+            
+         <Button variant="outline-primary"className='shop-button'>Primary</Button>
             </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -41,6 +43,7 @@ function Slider() {
           <h5 className='top'>100% NATURAL</h5>
           <p className='middle'>Organic Fruits <br/> Summer Drinks</p>
           <p className='bottom'>Fresh New pack Brusting Fruits</p>
+         <Button variant="outline-primary" className='shop-button'>Primary</Button>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

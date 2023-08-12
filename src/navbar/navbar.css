@@ -461,9 +461,6 @@ display: flex;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     color: var(--bs-card-color);
 }
-.shop-list{
-
-}
 }
 @media only screen and (min-width: 600px) {
     .logo-content{

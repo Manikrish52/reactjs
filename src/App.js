@@ -3,6 +3,7 @@ import Header from './header/header';
 import Navbarheader from './navbar/navbar';
 import Slider from './sliderarea/slider';
 import Static from './staticarea/static';
+import Index from './Router/index';
 function App() {
   return (
     <div>
@@ -10,6 +11,7 @@ function App() {
    <Navbarheader/>
    <Slider />
    <Static />
+   <Index />
    </div>
   );
 }

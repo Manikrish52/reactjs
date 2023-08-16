@@ -97,8 +97,8 @@
 }
 [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
     background-color: green;
-    width: 23px;
-    height: 19px;
+    width: 14px;
+    height: 14px;
     border-radius: 100%;
 }
 

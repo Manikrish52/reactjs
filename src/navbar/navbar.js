@@ -271,17 +271,16 @@ function Navbarheader() {
              </div>
 
           {/* shoping bag */}
-             <div className='call-content'>
-             <Nav.Link > 
-      
-                    <div className='bag' variant="primary"><ShoppingBagOutlinedIcon className='shoppingbag'  />
-       <Badge className='badge-content' bg="secondary">9</Badge>
-      <span className="visually-hidden">unread messages</span>
+             <div className='shoppingbag-content'>
+             <div variant="primary" className='shopingbag' id=''>  <ShoppingBagOutlinedIcon className='shoppingbag'  />
+      <Badge className='badge-number' bg="secondary">2</Badge>
+     
     </div>
-         
+      
+                
+          
             
              
-                 </Nav.Link>
                  
                
                 </div>

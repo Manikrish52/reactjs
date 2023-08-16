@@ -121,18 +121,20 @@
 @media only screen and (max-width: 320px) {}
 
 @media only screen and (min-width: 600px) {
+
        .static-content{
     height: 200px;
     width: 100%;
     width: 90%;
  margin: auto;
    margin-top: 50px;
+
    margin-bottom: 50px;
     border: 1px solid #ebebeb;
 }
 .first-box{
     width: 100%;
-       /* height: 50px; */
+       height: 100px;
   
     align-items: center;
     display: flex;
@@ -141,7 +143,7 @@
 }
 .second-box{
     width: 100%;
-   /* height: 50px; */
+   height: 100px;
   
     align-items: center;
     display: flex;
@@ -150,7 +152,7 @@
 }
 .third-box{
     width: 100%;
-      /* height: 50px; */
+      height: 100px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -158,7 +160,7 @@
 }
 .fourth-box{
     width: 100%;
-      /* height: 50px; */
+      height: 100px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -166,7 +168,16 @@
 }
 }
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+      .static-content{
+    height: 200px;
+    width: 100%;
+     margin: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+    border: 1px solid #ebebeb;
+}
+}
 
 @media only screen and (min-width: 992px) {}
 

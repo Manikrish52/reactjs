@@ -4,6 +4,7 @@ import Navbarheader from './navbar/navbar';
 import Slider from './sliderarea/slider';
 import Static from './staticarea/static';
 import Index from './Router/index';
+import Seller from './Seller/seller';
 function App() {
   return (
     <div>
@@ -11,7 +12,8 @@ function App() {
    <Navbarheader/>
    <Slider />
    <Static />
-   <Index />
+   <Seller />
+   {/* <Index /> */}
    </div>
   );
 }

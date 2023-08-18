@@ -17,7 +17,7 @@ function Static() {
               src={StaticImg1}
               alt='truch-img'
               />
-              <div className='static-lable'>
+              <div className='firststatic-lable'>
               <h4 className='static-title'>Free Shipping</h4>
               <p className='static-para'>on all ordrers over $ 75.00</p>
             </div>
@@ -31,9 +31,9 @@ function Static() {
               src={StaticImg2}
               alt='net-img'
               />
-              <div className='static-lable'>
+              <div className='secondstatic-lable'>
               <h4 className='static-title'>Free Returns</h4>
-              <p className='static-para'>REturns are free within 9 days</p>
+              <p className='static-para'>Returns are free within 9 days</p>
             </div>
             </div>
           </div>
@@ -45,7 +45,7 @@ function Static() {
               src={StaticImg3}
               alt='payment-img'
               />
-              <div className='static-lable'>
+              <div className='thirdstatic-lable'>
               <h4 className='static-title'>100% Payment Secure</h4>
               <p className='static-para'>Your payment are safe with us.</p>
             </div>
@@ -59,7 +59,7 @@ function Static() {
               src={StaticImg14}
               alt='call-img'
               />
-              <div className='static-lable'>
+              <div className='fourthstatic-lable'>
               <h4 className='static-title'>Support 24/7</h4>
               <p className='static-para'>Contact us 24 hours a day</p>
             </div>

@@ -9,6 +9,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 function Header() {
   return (
+    <div className='header-body'>
     <Navbar expand="lg" className="rightside-navbar">
       {/* rightside header title */}
         <div className='right-side'>
@@ -75,6 +76,7 @@ function Header() {
         </div>
      
     </Navbar>
+    </div>
   );
 }
 

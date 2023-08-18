@@ -70,7 +70,7 @@
 .first-box{
     width: 100%;
        height: 100px;
-  
+   padding-right: 5%;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -91,7 +91,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    
+    padding-left: 4%;
 }
 .fourth-box{
     width: 100%;
@@ -99,7 +99,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    
+     padding-right: 5%;
 }
 .static-title{
     font-size: 16px !important;
@@ -111,7 +111,22 @@
   color: #666;
     font-size: 13px;
 }
-
+.firststatic-lable{
+      margin-top: 5%;
+    padding-left: 10px;
+}
+.secondstatic-lable{
+    margin-top: 5%;
+    padding-left: 10px;
+}
+.thirdstatic-lable{
+  padding-left: 10px;
+    margin-top: 5%;
+}
+.fourthstatic-lable{
+    padding-left: 10px;
+     margin-top: 5%;
+}
 }
 
 @media only screen and (max-width: 425px) {}
@@ -177,13 +192,206 @@
    margin-bottom: 50px;
     border: 1px solid #ebebeb;
 }
+
+.firststatic-lable{
+      margin-top: 5%;
+    padding-left: 10px;
+}
+.secondstatic-lable{
+    margin-top: 5%;
+    padding-left: 10px;
+}
+.thirdstatic-lable{
+  padding-left: 10px;
+    margin-top: 6%;
+}
+.fourthstatic-lable{
+    padding-left: 10px;
+     margin-top: 5%;
+}
+.first-box{
+    width: 100%;
+       height: 100px;
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.second-box{
+    width: 100%;
+   height: 100px;
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.third-box{
+    width: 100%;
+      height: 100px;
+    align-items: center;
+    display: flex;
+    padding-left: 25px;
+    justify-content: center;
+    
+}
+.fourth-box{
+    width: 100%;
+      height: 100px;
+    align-items: center;
+    display: flex;
+    padding-right: 20px;
+    justify-content: center;
+    
+}
 }
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+         .static-content{
+    height: 100px;
+    width: 100%;
+     margin: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+    border: 1px solid #ebebeb;
+}
+.static-title {
+    font-size: 15px !important;
+    margin-bottom: inherit;
+}
+/* .firststatic-lable{
+      margin-top: 10%;
+    padding-left: 10px;
+}
+.secondstatic-lable{
+    margin-top: 10%;
+    padding-left: 10px;
+}
+.thirdstatic-lable{
+  padding-left: 10px;
+    margin-top: 15%;
+}
+.fourthstatic-lable{
+    padding-left: 10px;
+     margin-top: 10%;
+} */
+.first-box{
+    width: 100%;
+       height: 100px;
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.second-box{
+    width: 100%;
+   height: 100px;
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.third-box{
+    width: 100%;
+      height: 100px;
+    align-items: center;
+    display: flex;
+    padding-left: 25px;
+    justify-content: center;
+    
+}
+.fourth-box{
+    width: 100%;
+      height: 100px;
+    align-items: center;
+    display: flex;
+    padding-right: 20px;
+    justify-content: center;
+    
+}
+}
 
-@media only screen and (min-width : 1200px) {}
+@media only screen and (min-width : 1200px) {
+        /* .static-content{
+    height: 150px;
+    width: 100%;
+     margin: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+    border: 1px solid #ebebeb;
+}
+.static-title {
+    font-size: 13px !important;
+    margin-bottom: inherit;
+}
+.firststatic-lable{
+      margin-top: 10%;
+    padding-left: 10px;
+}
+.secondstatic-lable{
+    margin-top: 10%;
+    padding-left: 10px;
+}
+.thirdstatic-lable{
+  padding-left: 10px;
+    margin-top: 15%;
+}
+.fourthstatic-lable{
+    padding-left: 10px;
+     margin-top: 10%;
+}
+.first-box{
+    width: 100%;
+       height: 100px;
 
-@media only screen and (min-width : 1366px) {}
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.second-box{
+    width: 100%;
+   height: 100px;
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.third-box{
+    width: 100%;
+      height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.fourth-box{
+    width: 100%;
+      height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+} */
+}
+
+@media only screen and (min-width : 1366px) {
+  .thirdstatic-lable {
+    padding-left: 10px;
+    margin-top: 7%;
+}
+.static-para{
+  font-size: 14px;
+}
+}
 
 @media only screen and (min-width : 1440px) {}
 

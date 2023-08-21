@@ -106,7 +106,11 @@
 .call-content{
     padding-right: 30px;
 }
-
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    width: 15rem !important;
+    height: 400px;
+}
 
 
 /* rs */
@@ -216,6 +220,7 @@
     color: #A8AEB0;
     width: 100%;
     display: flex;
+    width: 15rem;
     justify-content: space-between;
 }
 #homeorganic-content:hover{
@@ -276,7 +281,7 @@
     position: relative;
     display: block;
     background-image: url(./navbar.img/banner-menu.webp);
-    
+    background-size: cover;
 }
 
 .shop-item{
@@ -457,6 +462,7 @@ display: flex;
 }
 .card-content {
     width: 15rem;
+    border: none;
 }
 .card-body {
     flex: 1 1 auto;
@@ -555,6 +561,7 @@ display: flex;
 }
 .card-content {
     width: 40rem;
+    border: none;
 }
  .navbar-body{
     flex-direction: none ;
@@ -585,13 +592,35 @@ display: flex;
     padding-top: 10px;
     padding-right: 4rem;
 }
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    height: 400px;
+    width: 40rem;
+}
 }
 
 @media only screen and (min-width : 1366px) {
     
 }
 
-@media only screen and (min-width : 1440px) {}
+@media only screen and (min-width : 1440px) {
+    /* .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    width: 65rem;
+    height: 400px;
+} */
+.card-body {
+    flex: 1 1 auto;
+    width: 65rem;
+    /* height: 400px; */
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+}
+.card-content {
+    width: 65rem;
+    border: none;
+}
+}
 
 @media only screen and (min-width : 1600px) {}
 

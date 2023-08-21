@@ -94,7 +94,7 @@ function Navbarheader() {
                   </NavDropdown>
            
            {/* shop */}
-              <NavDropdown title="Shop" id="middle-nav-dropdown">
+              <NavDropdown title="Shop" id="middle-nav-dropdown" className='middle-box'>
                        <Card className='card-content'>
                   
                     <Card.Body className='card-body'>

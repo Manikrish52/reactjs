@@ -2,6 +2,7 @@ import React from 'react'
 import '../Seller/seller.css'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import StarIcon from '@mui/icons-material/Star';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Sellerimg1 from '../Seller/Sellerimg/product-1.webp'
@@ -28,7 +29,9 @@ function Seller() {
       className='manago-img'
       src={Sellerimg1} />
       <Card.Body>
-        <Card.Title></Card.Title>
+        <h4 className='product-title'>STUDIO DESIGN</h4>
+        <p className='product-use'>Juicy Couture Juicy <br/>Quilted Ter..</p>
+        <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
         <Card.Text>
 
         </Card.Text>

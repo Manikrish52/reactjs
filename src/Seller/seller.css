@@ -15,6 +15,7 @@
        
 
 }
+
 .leftside-seller{
     display: flex;
     /* padding: 0px 60px 0px 60px; */
@@ -79,23 +80,24 @@
     border-color: #4fb68d;
     background-color: #4fb68d;
 }
+/* full product */
+.full-product{
+    display: flex;
+}
 
 /* first product */
 .sellerfirst-box{
     width: 100%;
     height: 500px;
     padding-top: 30px;
+    /* padding-right: 30px; */
 }
 .card-product{
     width: 100% !important;
     height: 200px;
 }
 
-.sellerfirst-box{
-    width: 20%;
-    display: block;
-    /* padding-left: 20px; */
-}
+
 .manago-img{
     width: 100%;
        height: 250px;
@@ -105,6 +107,14 @@
 .manago-img img{
     width: 100%;
     height: 250px;
+}
+.new-box{
+    position:absolute;
+    top: 10px;
+    left: 10px;
+}
+.badge-new{
+    background-color: #4fb68d !important;
 }
 /*   <SearchIcon/> */
 .product-search{
@@ -172,6 +182,15 @@
     font-size: 16px;
     color: red;
 }
+.badge-offer{
+    background-color: red !important;
+    font-size: 15px;
+    font-weight: 500;
+
+    position:absolute;
+    width: 15% !important;
+    height: 20px;
+}
 /* footer */
 .product-footer{
     margin-top: 10px;
@@ -218,6 +237,7 @@ border-bottom-style: solid;
 .card-items .product-footer:hover{
     visibility: visible;
 }
+
 
 .product-footer:hover {
    
@@ -266,7 +286,30 @@ border-bottom-style: solid;
   }
 }
 
+
+
+
+/* second box */
+.sellersecond-box{
+    width: 20%;
+    height: 500px;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+/* img */
+.juice-img{
+    width: 100%;
+       height: 250px;
+       display: block;
+       background-size: cover;
+}
+.juice-img img{
+    width: 100%;
+    height: 250px;
+}
+
 @media only screen and (max-width: 600px) {
+   
     .sellerfirst-title{
     font-size: 24px;
      /* padding: 0px 0px 0px 20px; */
@@ -359,15 +402,23 @@ border-bottom-style: solid;
 }
 
 @media only screen and (min-width: 768px) {
+    /* first box */
     .sellerfirst-box {
     width: 40%;
   
 }
+
 .product-use {
     width: 70%;
     font-size: 19px;
     font-weight: 500;
 }
+/* second box */
+ .sellersecond-box {
+    width: 40%;
+  
+}
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -379,6 +430,9 @@ border-bottom-style: solid;
    width: 100%;
     font-size: 19px;
     font-weight: 600;
+}
+  .sellersecond-box {
+    width: 30%;
 }
 }
 
@@ -409,6 +463,10 @@ border-bottom-style: solid;
     bottom: 0%;
     position: absolute;
     visibility: none !important;
+}
+/* second box */
+  .sellersecond-box {
+    width: 20%;
 }
 }
 

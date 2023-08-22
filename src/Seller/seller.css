@@ -130,6 +130,8 @@
     left: 42%;
     position: absolute;
     /* visibility: hidden; */
+    display: none;
+   
 }
 .product-search:hover{
     background-color: #4fb68d;
@@ -140,8 +142,8 @@
      /* visibility: visible; */
      color: #fff;
 }
- .product-search .search-icon .sellerfirst-box:hover{
-    visibility: visible;
+ .sellerfirst-box:hover .product-search .search-icon {
+   display:inline;
   
 }
 .search-icon{

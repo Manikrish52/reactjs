@@ -13,7 +13,7 @@ function App() {
    <Slider />
    <Static />
    <Seller />
-   {/* <Index /> */}
+   <Index />
    </div>
   );
 }

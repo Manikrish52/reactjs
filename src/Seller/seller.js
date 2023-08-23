@@ -39,7 +39,10 @@ function Seller() {
       
       src={Sellerimg1} 
     
-      /> <div className='product-search'> <SearchIcon className='search-icon'/></div>
+      /> 
+      <div className='product-icon'>
+      <div className='product-search'> <SearchIcon className='search-icon'/></div>
+      </div>
         <h6 className='new-box'>
         <Badge bg="secondary" className='badge-new'>New</Badge>
       </h6>
@@ -49,7 +52,8 @@ function Seller() {
         <p className='product-use'>Juicy Couture Juicy Quilted Ter..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
         <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90 <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>34.21</span>
-          <Badge bg="secondary" className='badge-offer'>-5%</Badge>   
+          <Badge bg="secondary" className='badge-offer'>
+            <div className='percentage'>-5%</div></Badge>   
         </div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
@@ -70,7 +74,10 @@ function Seller() {
       
       src={Sellerimg2} 
     
-      /> <div className='product-search'> <SearchIcon className='search-icon'/></div>
+      />
+        <div className='product-icon'>
+       <div className='product-search'> <SearchIcon className='search-icon'/></div>
+       </div>
         <h6 className='new-box'>
         <Badge bg="secondary" className='badge-new'>New</Badge>
       </h6>

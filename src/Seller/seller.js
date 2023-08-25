@@ -10,9 +10,20 @@ import ShuffleIcon from '@mui/icons-material/Shuffle';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import SearchIcon from '@mui/icons-material/Search';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import Sellerimg1 from '../Seller/Sellerimg/product-1.webp'
-import Sellerimg2 from '../Seller/Sellerimg/product-2.webp'
-import Sellerimg3 from '../Seller/Sellerimg/product-15.webp'
+import Sellerimg1 from '../Seller/Sellerimg/product-1.webp';
+import Sellerimg2 from '../Seller/Sellerimg/product-2.webp';
+import Sellerimg3 from '../Seller/Sellerimg/product-15.webp';
+import Sellerimg4 from '../Seller/Sellerimg/product-3.webp';
+import Sellerimg5 from '../Seller/Sellerimg/product-4.webp';
+import Sellerimg6 from '../Seller/Sellerimg/product-5.webp';
+import Sellerimg7 from '../Seller/Sellerimg/product-6.webp';
+import Sellerimg8 from '../Seller/Sellerimg/product-7.webp';
+import Sellerimg9 from '../Seller/Sellerimg/product-8.webp';
+import Sellerimg10 from '../Seller/Sellerimg/product-9.webp';
+import Sellerimg11 from '../Seller/Sellerimg/product-10.webp';
+import Sellerimg12 from '../Seller/Sellerimg/product-11.webp';
+import Sellerimg13 from '../Seller/Sellerimg/product-12.webp';
+import Sellerimg14 from '../Seller/Sellerimg/product-14.webp';
 function Seller() {
   return (
     // sellertitle
@@ -30,8 +41,9 @@ function Seller() {
               </div>
         </div>
         {/* seller product */}
-        {/* first box */}
+      
         <div className='full-product'>
+            {/* first box */}
         <div className='sellerfirst-box'>
             <Card id='card-items' >
        <div className='product-img'>
@@ -98,7 +110,7 @@ function Seller() {
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
         <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90 <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>15.12</span>
         <Badge bg="secondary" className='badge-offer'>
-            <div className='percentage'>-5%</div></Badge> 
+            <div className='percentage'>-20%</div></Badge> 
         </div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
@@ -111,30 +123,36 @@ function Seller() {
     </Card>
         </div>
          {/* third product */}
-          <div className='sellerfirst-box'>
+        <div className='sellersecond-box'>
             <Card id='card-items' >
        <div className='product-img'>
       <Card.Img variant="top"
-      className='manago-img'
+      className='juice-img'
       
-      src={Sellerimg1} 
+      src={Sellerimg4} 
     
-      /> 
-      <div className='product-icon'>
-      <div className='product-search'> <SearchIcon className='search-icon'/></div>
+      />
+      <div className='productimg-over'>
+          <Card.Img variant="top"
+      className='juice-img'
+      
+      src={Sellerimg5} 
+    
+      />
       </div>
+      
+        <div className='product-icon'>
+       <div className='product-search'> <SearchIcon className='search-icon'/></div>
+       </div>
         <h6 className='new-box'>
         <Badge bg="secondary" className='badge-new'>New</Badge>
       </h6>
       </div>
       <Card.Body className='card-product'>
-        <h4 className='product-title'>STUDIO DESIGN</h4>
-        <p className='product-use'>Juicy Couture Juicy Quilted Ter..</p>
+        <h4 className='product-title'>GRAPHIC CORNER</h4>
+        <p className='product-use'>Brixton Patrol All Terrain Ano..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90 <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>34.21</span>
-          <Badge bg="secondary" className='badge-offer'>
-            <div className='percentage'>-5%</div></Badge>   
-        </div>
+        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90</div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
           <div className='leftside-icon'>
@@ -144,7 +162,7 @@ function Seller() {
       </Card.Body>
       
     </Card>
-        </div> 
+        </div>
 
         {/* fouth product  */}
   <div className='sellerfirst-box'>
@@ -153,7 +171,7 @@ function Seller() {
       <Card.Img variant="top"
       className='manago-img'
       
-      src={Sellerimg1} 
+      src={Sellerimg6} 
     
       /> 
       <div className='product-icon'>
@@ -164,12 +182,10 @@ function Seller() {
       </h6>
       </div>
       <Card.Body className='card-product'>
-        <h4 className='product-title'>STUDIO DESIGN</h4>
-        <p className='product-use'>Juicy Couture Juicy Quilted Ter..</p>
+        <h4 className='product-title'>GRAPHIC CORNER</h4>
+        <p className='product-use'>Juicy Couture Tricot Logo Strip..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90 <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>34.21</span>
-          <Badge bg="secondary" className='badge-offer'>
-            <div className='percentage'>-5%</div></Badge>   
+        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90         
         </div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
@@ -189,7 +205,7 @@ function Seller() {
       <Card.Img variant="top"
       className='manago-img'
       
-      src={Sellerimg1} 
+      src={Sellerimg7} 
     
       /> 
       <div className='product-icon'>
@@ -201,11 +217,9 @@ function Seller() {
       </div>
       <Card.Body className='card-product'>
         <h4 className='product-title'>STUDIO DESIGN</h4>
-        <p className='product-use'>Juicy Couture Juicy Quilted Ter..</p>
+        <p className='product-use'>New Balance Arishi Sport V1</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90 <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>34.21</span>
-          <Badge bg="secondary" className='badge-offer'>
-            <div className='percentage'>-5%</div></Badge>   
+        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90
         </div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
@@ -219,29 +233,36 @@ function Seller() {
         </div> 
 
         {/* sixth product */}
-         <div className='sellerfirst-box'>
+        <div className='sellersecond-box'>
             <Card id='card-items' >
        <div className='product-img'>
       <Card.Img variant="top"
-      className='manago-img'
+      className='juice-img'
       
-      src={Sellerimg1} 
+      src={Sellerimg8} 
     
-      /> 
-      <div className='product-icon'>
-      <div className='product-search'> <SearchIcon className='search-icon'/></div>
+      />
+      <div className='productimg-over'>
+          <Card.Img variant="top"
+      className='juice-img'
+      
+      src={Sellerimg9} 
+    
+      />
       </div>
+      
+        <div className='product-icon'>
+       <div className='product-search'> <SearchIcon className='search-icon'/></div>
+       </div>
         <h6 className='new-box'>
         <Badge bg="secondary" className='badge-new'>New</Badge>
       </h6>
       </div>
       <Card.Body className='card-product'>
-        <h4 className='product-title'>STUDIO DESIGN</h4>
-        <p className='product-use'>Juicy Couture Juicy Quilted Ter..</p>
+        <h4 className='product-title'>GRAPHIC CORNAR</h4>
+        <p className='product-use'>Fila Locker Room Varsity Jacket</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90 <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>34.21</span>
-          <Badge bg="secondary" className='badge-offer'>
-            <div className='percentage'>-5%</div></Badge>   
+        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90 
         </div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
@@ -252,7 +273,7 @@ function Seller() {
       </Card.Body>
       
     </Card>
-        </div> 
+        </div>
         {/* seventh product */}
          <div className='sellerfirst-box'>
             <Card id='card-items' >
@@ -260,7 +281,7 @@ function Seller() {
       <Card.Img variant="top"
       className='manago-img'
       
-      src={Sellerimg1} 
+      src={Sellerimg10} 
     
       /> 
       <div className='product-icon'>
@@ -272,11 +293,9 @@ function Seller() {
       </div>
       <Card.Body className='card-product'>
         <h4 className='product-title'>STUDIO DESIGN</h4>
-        <p className='product-use'>Juicy Couture Juicy Quilted Ter..</p>
+        <p className='product-use'>Water And Wind REsistant Ins..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90 <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>34.21</span>
-          <Badge bg="secondary" className='badge-offer'>
-            <div className='percentage'>-5%</div></Badge>   
+        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90 
         </div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
@@ -289,6 +308,208 @@ function Seller() {
     </Card>
         </div> 
 
+        {/* eight product */}
+           <div className='sellerfirst-box'>
+            <Card id='card-items' >
+       <div className='product-img'>
+      <Card.Img variant="top"
+      className='manago-img'
+      
+      src={Sellerimg11} 
+    
+      /> 
+      <div className='product-icon'>
+      <div className='product-search'> <SearchIcon className='search-icon'/></div>
+      </div>
+        <h6 className='new-box'>
+        <Badge bg="secondary" className='badge-new'>New</Badge>
+      </h6>
+      </div>
+      <Card.Body className='card-product'>
+        <h4 className='product-title'>STUDIO DESIGN</h4>
+        <p className='product-use'>New Luxury MEn's Slim Fit Shi..</p>
+        <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
+        <div className='product-rate'><EuroIcon className='product-euroicon'/>29.90 
+        </div>
+        <div className='product-footer'>
+          <div className='add-cart'>ADD TO CART</div>
+          <div className='leftside-icon'>
+            <ShuffleIcon  className='cross-icon'/> &nbsp;<FavoriteBorderIcon  className='heart-icon'/>
+          </div>
+        </div>
+      </Card.Body>
+      
+    </Card>
+        </div> 
+
+        {/* ninth product */}
+           <div className='sellersecond-box'>
+            <Card id='card-items' >
+       <div className='product-img'>
+      <Card.Img variant="top"
+      className='juice-img'
+      
+      src={Sellerimg12} 
+    
+      />
+      <div className='productimg-over'>
+          <Card.Img variant="top"
+      className='juice-img'
+      
+      src={Sellerimg13} 
+    
+      />
+      </div>
+      
+        <div className='product-icon'>
+       <div className='product-search'> <SearchIcon className='search-icon'/></div>
+       </div>
+        <h6 className='new-box'>
+        <Badge bg="secondary" className='badge-new'>New</Badge>
+      </h6>
+      </div>
+      <Card.Body className='card-product'>
+        <h4 className='product-title'>STUDIO DESIGN</h4>
+        <p className='product-use'>Originals Kaval Windbreaker..</p>
+        <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
+        <div className='product-rate'><EuroIcon className='product-euroicon'/>23.90 <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>21.51</span>
+        <Badge bg="secondary" className='badge-offer'>
+            <div className='percentage'>-10%</div></Badge> 
+        </div>
+        <div className='product-footer'>
+          <div className='add-cart'>ADD TO CART</div>
+          <div className='leftside-icon'>
+            <ShuffleIcon  className='cross-icon'/> &nbsp;<FavoriteBorderIcon  className='heart-icon'/>
+          </div>
+        </div>
+      </Card.Body>
+      
+    </Card>
+        </div>
+        {/* 10th product */}
+          <div className='sellersecond-box'>
+            <Card id='card-items' >
+       <div className='product-img'>
+      <Card.Img variant="top"
+      className='juice-img'
+      
+      src={Sellerimg5} 
+    
+      />
+      <div className='productimg-over'>
+          <Card.Img variant="top"
+      className='juice-img'
+      
+      src={Sellerimg4} 
+    
+      />
+      </div>
+      
+        <div className='product-icon'>
+       <div className='product-search'> <SearchIcon className='search-icon'/></div>
+       </div>
+        <h6 className='new-box'>
+        <Badge bg="secondary" className='badge-new'>New</Badge>
+      </h6>
+      </div>
+      <Card.Body className='card-product'>
+        <h4 className='product-title'>STUDIO DESIGN</h4>
+        <p className='product-use'>Brixton Patrol All Terrain Anor..</p>
+        <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
+        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90
+       
+        </div>
+        <div className='product-footer'>
+          <div className='add-cart'>ADD TO CART</div>
+          <div className='leftside-icon'>
+            <ShuffleIcon  className='cross-icon'/> &nbsp;<FavoriteBorderIcon  className='heart-icon'/>
+          </div>
+        </div>
+      </Card.Body>
+      
+    </Card>
+        </div>
+
+        {/* 11th product */}
+           <div className='sellerfirst-box'>
+            <Card id='card-items' >
+       <div className='product-img'>
+      <Card.Img variant="top"
+      className='manago-img'
+      
+      src={Sellerimg14} 
+    
+      /> 
+      <div className='product-icon'>
+      <div className='product-search'> <SearchIcon className='search-icon'/></div>
+      </div>
+        <h6 className='new-box'>
+        <Badge bg="secondary" className='badge-new'>New</Badge>
+      </h6>
+      </div>
+      <Card.Body className='card-product'>
+        <h4 className='product-title'>STUDIO DESIGN</h4>
+        <p className='product-use'>Madden By Steve Madden Cale 6</p>
+        <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
+        <div className='product-rate'><EuroIcon className='product-euroicon'/>11.90 <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>10.12</span>
+          <Badge bg="secondary" className='badge-offer'>
+            <div className='percentage'>-15%</div></Badge>   
+        </div>
+        <div className='product-footer'>
+          <div className='add-cart'>ADD TO CART</div>
+          <div className='leftside-icon'>
+            <ShuffleIcon  className='cross-icon'/> &nbsp;<FavoriteBorderIcon  className='heart-icon'/>
+          </div>
+        </div>
+      </Card.Body>
+      
+    </Card>
+        </div> 
+
+        {/* 12th product */}
+          <div className='sellersecond-box'>
+            <Card id='card-items' >
+       <div className='product-img'>
+      <Card.Img variant="top"
+      className='juice-img'
+      
+      src={Sellerimg3} 
+    
+      />
+      <div className='productimg-over'>
+          <Card.Img variant="top"
+      className='juice-img'
+      
+      src={Sellerimg2} 
+    
+      />
+      </div>
+      
+        <div className='product-icon'>
+       <div className='product-search'> <SearchIcon className='search-icon'/></div>
+       </div>
+        <h6 className='new-box'>
+        <Badge bg="secondary" className='badge-new'>New</Badge>
+      </h6>
+      </div>
+      <Card.Body className='card-product'>
+        <h4 className='product-title'>STUDIO DESIGN</h4>
+        <p className='product-use'>Juicy Couture Juicy Quilted Ter..</p>
+        <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
+        <div className='product-rate'><EuroIcon className='product-euroicon'/> <div className='product-price'>35.90</div> <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>34.11</span>
+        <Badge bg="secondary" className='badge-offer'>
+            <div className='percentage'>-5%</div></Badge> 
+        </div>
+        <div className='product-footer'>
+          <div className='add-cart'>ADD TO CART</div>
+          <div className='leftside-icon'>
+            <ShuffleIcon  className='cross-icon'/> &nbsp;<FavoriteBorderIcon  className='heart-icon'/>
+          </div>
+        </div>
+      </Card.Body>
+      
+    </Card>
+        </div>
 {/* product end */}
         </div>
     </div> 

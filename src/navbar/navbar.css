@@ -126,9 +126,7 @@
 }
 
 /* shopping bag */
-.shoppingbag-content{
-    
-}
+
 .shoppingbag{
     font-size: 32px !important;
     color: rgb(32, 28, 28) !important;
@@ -214,13 +212,15 @@
     /*home  */
 .middle-content{
     display: flex;
+  
    
 }
+
 #homeorganic-content{
     color: #A8AEB0;
     width: 100%;
     display: flex;
-    width: 15rem;
+    width: 20rem;
     justify-content: space-between;
 }
 #homeorganic-content:hover{
@@ -228,6 +228,7 @@
 }
 
 .action-home{
+   
     color: #A8AEB0;
   transition-duration: .4s;
   transition-delay: .1s;
@@ -609,6 +610,10 @@ display: flex;
     width: 65rem;
     height: 400px;
 } */
+.home-content{
+    padding-left: 6rem;
+    background-color: #fff;
+}
 .card-body {
     flex: 1 1 auto;
     width: 65rem;

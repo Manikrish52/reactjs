@@ -64,7 +64,7 @@ function Seller() {
         <h4 className='product-title'>STUDIO DESIGN</h4>
         <p className='product-use'>Juicy Couture Juicy Quilted Ter..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90 <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>34.21</span>
+        <div className='product-rate'><EuroIcon className='product-euroicon'/><span className='product-price'>18.90</span> <span className='secondproduct-rate'><EuroIcon className='secondproduct-euroicon'/>34.21</span>
           <Badge bg="secondary" className='badge-offer'>
             <div className='percentage'>-5%</div></Badge>   
         </div>
@@ -90,7 +90,7 @@ function Seller() {
       />
       <div className='productimg-over'>
           <Card.Img variant="top"
-      className='juice-img'
+      className='juices-img'
       
       src={Sellerimg3} 
     
@@ -108,9 +108,9 @@ function Seller() {
         <h4 className='product-title'>STUDIO DESIGN</h4>
         <p className='product-use'>New Balance Fresh Foam ka..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90 <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>15.12</span>
+        <div className='product-rate'><EuroIcon className='product-euroicon'/><span className='product-price'>18.90</span> <span className='secondproduct-rate'><EuroIcon className='secondproduct-euroicon'/>15.12</span>
         <Badge bg="secondary" className='badge-offer'>
-            <div className='percentage'>-20%</div></Badge> 
+            <div className='discount_content'>-20%</div></Badge> 
         </div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
@@ -152,7 +152,7 @@ function Seller() {
         <h4 className='product-title'>GRAPHIC CORNER</h4>
         <p className='product-use'>Brixton Patrol All Terrain Ano..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90</div>
+        <div className='product-rate'><EuroIcon className='product-euroicon'/><span className='product-pricerate'>18.90</span></div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
           <div className='leftside-icon'>
@@ -185,7 +185,7 @@ function Seller() {
         <h4 className='product-title'>GRAPHIC CORNER</h4>
         <p className='product-use'>Juicy Couture Tricot Logo Strip..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90         
+        <div className='product-rate'><EuroIcon className='product-euroicon'/> <span className='product-pricerate'>18.90</span>      
         </div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
@@ -219,7 +219,7 @@ function Seller() {
         <h4 className='product-title'>STUDIO DESIGN</h4>
         <p className='product-use'>New Balance Arishi Sport V1</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90
+        <div className='product-rate'><EuroIcon className='product-euroicon'/><span className='product-pricerate'>18.90</span>
         </div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
@@ -262,7 +262,7 @@ function Seller() {
         <h4 className='product-title'>GRAPHIC CORNAR</h4>
         <p className='product-use'>Fila Locker Room Varsity Jacket</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90 
+        <div className='product-rate'><EuroIcon className='product-euroicon'/><span className='product-pricerate'>18.90</span>
         </div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
@@ -295,7 +295,7 @@ function Seller() {
         <h4 className='product-title'>STUDIO DESIGN</h4>
         <p className='product-use'>Water And Wind REsistant Ins..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90 
+        <div className='product-rate'><EuroIcon className='product-euroicon'/><span className='product-pricerate'>18.90</span>
         </div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
@@ -329,7 +329,7 @@ function Seller() {
         <h4 className='product-title'>STUDIO DESIGN</h4>
         <p className='product-use'>New Luxury MEn's Slim Fit Shi..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>29.90 
+        <div className='product-rate'><EuroIcon className='product-euroicon'/> <span className='product-pricerate'>29.90</span>
         </div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
@@ -372,7 +372,7 @@ function Seller() {
         <h4 className='product-title'>STUDIO DESIGN</h4>
         <p className='product-use'>Originals Kaval Windbreaker..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>23.90 <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>21.51</span>
+        <div className='product-rate'><EuroIcon className='product-euroicon'/> <span className='product-price'>23.90</span><span className='secondproduct-rate'><EuroIcon className='secondproduct-euroicon'/>21.51</span>
         <Badge bg="secondary" className='badge-offer'>
             <div className='percentage'>-10%</div></Badge> 
         </div>
@@ -416,7 +416,7 @@ function Seller() {
         <h4 className='product-title'>STUDIO DESIGN</h4>
         <p className='product-use'>Brixton Patrol All Terrain Anor..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>18.90
+        <div className='product-rate'><EuroIcon className='product-euroicon'/><span className='product-pricerate'>18.90</span>
        
         </div>
         <div className='product-footer'>
@@ -451,7 +451,7 @@ function Seller() {
         <h4 className='product-title'>STUDIO DESIGN</h4>
         <p className='product-use'>Madden By Steve Madden Cale 6</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/>11.90 <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>10.12</span>
+        <div className='product-rate'><EuroIcon className='product-euroicon'/><span className='product-price'>11.90</span> <span className='secondproduct-rate'><EuroIcon className='secondproduct-euroicon'/>10.12</span>
           <Badge bg="secondary" className='badge-offer'>
             <div className='percentage'>-15%</div></Badge>   
         </div>
@@ -496,7 +496,7 @@ function Seller() {
         <h4 className='product-title'>STUDIO DESIGN</h4>
         <p className='product-use'>Juicy Couture Juicy Quilted Ter..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/> <div className='product-price'>35.90</div> <span className='secondproduct-rate'><EuroIcon className='product-euroicon'/>34.11</span>
+        <div className='product-rate'><EuroIcon className='product-euroicon'/> <div className='product-price'><span className='product-pricerate'>35.90</span></div> <span className='secondproduct-rate'><EuroIcon className='secondproduct-euroicon'/>34.11</span>
         <Badge bg="secondary" className='badge-offer'>
             <div className='percentage'>-5%</div></Badge> 
         </div>

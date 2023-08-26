@@ -37,7 +37,9 @@ function Navbarheader() {
           >
 
             {/* home */}
-             <NavDropdown title="Home" id="middle-nav-dropdown"  >
+        
+             <NavDropdown title="Home" id="middle-nav-dropdown" className='home-content' >
+              <div >
                <NavDropdown className='action-home' title='Home Organic' href="#action/1.1" id='homeorganic-content'>
                  <ListGroup className='home-organic'>
                   <ListGroup.Item>Organic 1</ListGroup.Item>
@@ -48,6 +50,7 @@ function Navbarheader() {
                
                {/* <ArrowForwardIosIcon className='arrowforwardicion'/>  */}
                </NavDropdown> 
+           
                <NavDropdown.Divider className='navdrop-divider' />
                <NavDropdown className='action-home' href="#action/1.2" id='homeorganic-content' title='Home Cosmetic'>
                 <ListGroup className='home-organic'>
@@ -91,6 +94,7 @@ function Navbarheader() {
                   <NavDropdown.Divider className='navdrop-divider' />
                <div className='single-product'>Single Product
                 <FiberNewIcon/></div>
+                    </div>
                   </NavDropdown>
            
            {/* shop */}

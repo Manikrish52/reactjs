@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Seller/seller.css'
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge';
 import StarIcon from '@mui/icons-material/Star';
@@ -24,8 +23,11 @@ import Sellerimg11 from '../Seller/Sellerimg/product-10.webp';
 import Sellerimg12 from '../Seller/Sellerimg/product-11.webp';
 import Sellerimg13 from '../Seller/Sellerimg/product-12.webp';
 import Sellerimg14 from '../Seller/Sellerimg/product-14.webp';
+import Data from '../home.json'
+
 function Seller() {
   return (
+   
     // sellertitle
     <div className='seller-content'>
         <div className='seller-title'>
@@ -83,14 +85,14 @@ function Seller() {
             <Card id='card-items' >
        <div className='product-img'>
       <Card.Img variant="top"
-      className='juice-img'
+      className='first-img'
       
       src={Sellerimg2} 
     
       />
       <div className='productimg-over'>
           <Card.Img variant="top"
-      className='juices-img'
+      className='second-img'
       
       src={Sellerimg3} 
     
@@ -127,14 +129,14 @@ function Seller() {
             <Card id='card-items' >
        <div className='product-img'>
       <Card.Img variant="top"
-      className='juice-img'
+      className='first-img'
       
       src={Sellerimg4} 
     
       />
       <div className='productimg-over'>
           <Card.Img variant="top"
-      className='juice-img'
+      className='second-img'
       
       src={Sellerimg5} 
     
@@ -237,14 +239,14 @@ function Seller() {
             <Card id='card-items' >
        <div className='product-img'>
       <Card.Img variant="top"
-      className='juice-img'
+      className='first-img'
       
       src={Sellerimg8} 
     
       />
       <div className='productimg-over'>
           <Card.Img variant="top"
-      className='juice-img'
+      className='second-img'
       
       src={Sellerimg9} 
     
@@ -293,7 +295,7 @@ function Seller() {
       </div>
       <Card.Body className='card-product'>
         <h4 className='product-title'>STUDIO DESIGN</h4>
-        <p className='product-use'>Water And Wind REsistant Ins..</p>
+        <p className='product-use'>Water And Wind Resistant Ins..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
         <div className='product-rate'><EuroIcon className='product-euroicon'/><span className='product-pricerate'>18.90</span>
         </div>
@@ -327,7 +329,7 @@ function Seller() {
       </div>
       <Card.Body className='card-product'>
         <h4 className='product-title'>STUDIO DESIGN</h4>
-        <p className='product-use'>New Luxury MEn's Slim Fit Shi..</p>
+        <p className='product-use'>New Luxury Men's Slim Fit Shi..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
         <div className='product-rate'><EuroIcon className='product-euroicon'/> <span className='product-pricerate'>29.90</span>
         </div>
@@ -347,14 +349,14 @@ function Seller() {
             <Card id='card-items' >
        <div className='product-img'>
       <Card.Img variant="top"
-      className='juice-img'
+      className='first-img'
       
       src={Sellerimg12} 
     
       />
       <div className='productimg-over'>
           <Card.Img variant="top"
-      className='juice-img'
+      className='second-img'
       
       src={Sellerimg13} 
     
@@ -391,14 +393,14 @@ function Seller() {
             <Card id='card-items' >
        <div className='product-img'>
       <Card.Img variant="top"
-      className='juice-img'
+      className='first-img'
       
       src={Sellerimg5} 
     
       />
       <div className='productimg-over'>
           <Card.Img variant="top"
-      className='juice-img'
+      className='second-img'
       
       src={Sellerimg4} 
     
@@ -471,14 +473,14 @@ function Seller() {
             <Card id='card-items' >
        <div className='product-img'>
       <Card.Img variant="top"
-      className='juice-img'
+      className='first-img'
       
       src={Sellerimg3} 
     
       />
       <div className='productimg-over'>
           <Card.Img variant="top"
-      className='juice-img'
+      className='second-img'
       
       src={Sellerimg2} 
     
@@ -490,15 +492,15 @@ function Seller() {
        </div>
         <h6 className='new-box'>
         <Badge bg="secondary" className='badge-new'>New</Badge>
-      </h6>
+      </h6> 
       </div>
       <Card.Body className='card-product'>
         <h4 className='product-title'>STUDIO DESIGN</h4>
         <p className='product-use'>Juicy Couture Juicy Quilted Ter..</p>
         <div> <StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/><StarIcon className='star'/></div>
-        <div className='product-rate'><EuroIcon className='product-euroicon'/> <div className='product-price'><span className='product-pricerate'>35.90</span></div> <span className='secondproduct-rate'><EuroIcon className='secondproduct-euroicon'/>34.11</span>
-        <Badge bg="secondary" className='badge-offer'>
-            <div className='percentage'>-5%</div></Badge> 
+        <div className='product-rate'><EuroIcon className='product-euroicon'/><span className='product-price'>35.90</span> <span className='secondproduct-rate'><EuroIcon className='secondproduct-euroicon'/>10.12</span>
+          <Badge bg="secondary" className='badge-offer'>
+            <div className='percentage'>-15%</div></Badge>   
         </div>
         <div className='product-footer'>
           <div className='add-cart'>ADD TO CART</div>
@@ -518,5 +520,22 @@ function Seller() {
    
   )
 }
+{
+    Data.map(data => {
+      return(
+        <div new = {data.new} 
+         image = {data.image}
+     icon = {data.icon}
+     studiodesign ={data.studiodesign}
+     productname ={data.productname}
+     ratestars = {data.ratestars}
+     discountprice={data.discountprice}
+     orgnalprice={data.orgnalprice}
+      crossicon ={data.crossicon}
+     hearticon ={data.hearticon}
+     cart={data.cart}></div>
+      )
+    })
+   }
 
 export default Seller

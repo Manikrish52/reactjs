@@ -1,0 +1,162 @@
+[
+    {
+       "new":"new",
+     "image":"http://localhost:3000/static/media/product-1.77df83befd34da1ae66b.webp",
+     "icon":"",
+     "studiodesign":"STUDIO DESIGN",
+     "productname":"Juicy Couture Juicy Quilted Ter..",
+     "ratestars":"",
+     "discountprice":18.90,
+     "orgnalprice":34.21,
+      "crossicon":"",
+     "hearticon":"",
+     "cart":""
+},
+ {
+       "new":"new",
+     "image":"http://localhost:3000/static/media/product-2.be27eda3a886d1e603a5.webp",
+      "hoverimage":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+     "icon":"",
+     "studiodesign":"STUDIO DESIGN",
+     "productname":"New Balance Fresh Foam Ka..",
+     "ratestars":"",
+     "discountprice":15.12,
+     "orgnalprice":18.90,
+     "cart":"",
+     "crossicon":"",
+     "hearticon":""
+},
+ {
+       "new":"new",
+     "image":"http://localhost:3000/static/media/product-3.8bde60115102cc279829.webp",
+     "hoverimage":"http://localhost:3000/static/media/product-4.2f7bea4078eaff9324bf.webp",
+     "icon":"",
+     "studiodesign":"GRAPHIC CORNER",
+     "productname":"Brixton Patrol All Terrain Ano..",
+     "ratestars":"",
+     "orgnalprice":18.90,
+     "cart":"",
+     "crossicon":"",
+     "hearticon":""
+},
+ {
+       "new":"new",
+     "image":"http://localhost:3000/static/media/product-5.f16a21f9b0ec4427f871.webp",
+     "icon":"",
+     "studiodesign":"GRAPHIC CORNER",
+     "productname":"Juicy Couture Tricot Logo Strip..",
+     "ratestars":"",
+     "orgnalprice":18.90,
+     "cart":"",
+     "crossicon":"",
+     "hearticon":""
+},
+ {
+       "new":"new",
+     "image":"http://localhost:3000/static/media/product-6.b71a386fe46abf32e458.webp",
+     "icon":"",
+     "studiodesign":"STUDIO DESIGN",
+     "productname":"New Balance Arishi Sport v1",
+     "ratestars":"",
+     "orgnalprice":18.90,
+     "cart":"",
+     "crossicon":"",
+     "hearticon":""
+},
+
+ {
+       "new":"new",
+     "image":"http://localhost:3000/static/media/product-7.f9b283f78a0156ea1562.webp",
+     "hoverimage":"http://localhost:3000/static/media/product-8.bbdf080b3c3e747ba680.webp",
+     "icon":"",
+     "studiiodesign":"GRAPHIC CORNAR",
+     "productname":"Fila Locker Room Varsity Jacket",
+     "ratestars":"",
+     "orgnalprice":18.90,
+     "cart":"",
+     "crossicon":"",
+     "hearticon":""
+},
+
+ {
+       "new":"new",
+     "image":"http://localhost:3000/static/media/product-9.8e7cab14ed958836ba92.webp",
+     "icon":"",
+     "studiodesign":"Studio design",
+     "productname":"Water And Wind Resistant Ins..",
+     "ratestars":"",
+     "orgnalprice":18.90,
+     "cart":"",
+     "crossicon":"",
+     "hearticon":""
+}, {
+       "new":"new",
+     "image":"http://localhost:3000/static/media/product-10.396b7bb2b5c2f2331cf2.webp",
+     "icon":"",
+     "studiodesign":"STUDIO DESIGN",
+     "productname":"New Luxury Men's Slim Fit Shi..",
+     "ratestars":"",
+     "orgnalprice":"29.00",
+     "cart":"",
+     "crossicon":"",
+     "hearticon":""
+},
+
+ {
+       "new":"new",
+     "image":"http://localhost:3000/static/media/product-11.fc223d285a07e560948c.webp",
+    "hoverimage":"http://localhost:3000/static/media/product-12.4898eacf736bc9c9f196.webp",
+     "icon":"",
+     "studiodesign":"Studio design",
+     "productname":"Originals Kaval Windbreaker..",
+     "ratestars":"",
+     "discountprice":21.51,
+     "orgnalprice":23.90,
+     "cart":"",
+     "crossicon":"",
+     "hearticon":""
+},
+
+ {
+       "new":"new",
+     "image":"http://localhost:3000/static/media/product-4.2f7bea4078eaff9324bf.webp",
+     "hoverimage":"http://localhost:3000/static/media/product-3.8bde60115102cc279829.webp",
+     "icon":"",
+     "studiodesign":"STUDIO DESIGN",
+     "productname":"Brixton Patrol All Terrain Anor..",
+     "ratestars":"",
+     "discountprice":"",
+     "orgnalprice":18.90,
+     "cart":"",
+     "crossicon":"",
+     "hearticon":""
+},
+ {
+       "new":"new",
+     "image":"http://localhost:3000/static/media/product-14.8a657db814e2a91754b0.webp",
+     "icon":"",
+     "studiodesign":"STUDIO DESIGN",
+     "productname":"Madden By Steve Madden Cale 6",
+     "ratestars":"",
+     "discountprice":10.12,
+     "orgnalprice":11.90,
+     "cart":"",
+     "crossicon":"",
+     "hearticon":""
+},
+ {
+       "new":"new",
+     "image":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+   "hoverimage":"http://localhost:3000/static/media/product-2.be27eda3a886d1e603a5.webp",
+     "icon":"",
+     "studiodesign":"STUDIO DESIGN",
+     "productname":"Madden By Steve Madden Cale 6",
+     "ratestars":"",
+     "discountprice":10.12,
+     "orgnalprice":35.90,
+     "cart":"",
+     "crossicon":"",
+     "hearticon":""
+}
+
+]

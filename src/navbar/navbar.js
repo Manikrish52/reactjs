@@ -1,6 +1,5 @@
 import React from 'react';
 import './navbar.css';  
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
@@ -9,7 +8,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import SearchIcon from '@mui/icons-material/Search';
 import Card from 'react-bootstrap/Card';
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ListGroup from 'react-bootstrap/ListGroup';
 import InputGroup from 'react-bootstrap/InputGroup';
 import { ListItem } from '@mui/material';
@@ -276,19 +274,12 @@ function Navbarheader() {
 
           {/* shoping bag */}
              <div className='shoppingbag-content'>
-             <div variant="primary" className='shopingbag' id=''>  <ShoppingBagOutlinedIcon className='shoppingbag'  />
+             <div variant="primary" className='shopingbag' id=''>  <ShoppingBagOutlinedIcon className='shoppingbag'  /> </div> 
       <Badge className='badge-number' bg="secondary">2</Badge>
      
-    </div>
-      
-                
-          
-            
-             
-                 
-               
+           
                 </div>
-          
+       
 
 <div className='number-content'>$20.00</div>
 

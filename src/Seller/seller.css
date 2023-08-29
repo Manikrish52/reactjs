@@ -84,11 +84,11 @@
 /* full product */
 .full-product{
     display: flex;
-    overflow: scroll;
     
+    overflow-y: scroll !important;
     align-items: center;
     column-gap: 20px;
-    scroll-snap-type: x mandatory;
+    /* scroll-snap-type: y mandatory; */
 }
 
 /* first product */
@@ -199,7 +199,7 @@
 .product-price{
     font-size: 16px;
      color: #9b9b9b;
-    font-weight: 400;
+    font-weight: 200;
     padding: none !important;
     text-decoration: line-through;
     
@@ -338,36 +338,34 @@ border-bottom-style: solid;
 
 /* second box */
 .sellersecond-box{
-    
     /* height: 500px; */
       scroll-snap-align: center;
     min-width: 20%;
-    /* padding-top: 30px; */
-    margin-left: 20px;
+    
 }
 .sellersecond-box:hover{
     border: 1px solid #4fb68d;
     border-radius: 6px;
 }
 /* img */
-.juice-img{
+.first-img{
     width: 100%;
        height: 250px;
        display: block;
        background-size: cover;
 }
-.juice-img img{
+.first-img img{
     width: 100%;
     height: 250px;
 }
-.juices-img{
+.second-img{
     width: 100%;
        height: 250px;
        display: block;
        background-size: cover;
        padding-left: 10px;
 }
-.juices-img img{
+.second-img img{
     width: 100%;
     height: 250px;
     
@@ -375,6 +373,8 @@ border-bottom-style: solid;
  .sellersecond-box:hover .product-icon{
    display: inline;
    background-color: white;
+
+ 
 }
 .sellersecond-box:hover .search-icon{
     color: black;
@@ -394,7 +394,7 @@ border-bottom-style: solid;
     position: absolute;
     display: block;
     top: 0%;
- 
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -423,9 +423,9 @@ border-bottom-style: solid;
 }
 
 .sellerfirst-box{
-    width: 100%;
-    height: 400px;
-    padding-top: 30px;
+    width: 100% !important;
+    display: block;
+    
 }
 .product-footer {
     margin-top: 10px;

@@ -94,12 +94,15 @@
 }
 .shop-button:hover{
     background-color: #666;
+    --bs-btn-active-bg: #666 !important;
+    --bs-btn-active-color: #fff;
 }
 [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
     background-color: green;
     width: 14px;
     height: 14px;
     border-radius: 100%;
+
 }
 
 .top {

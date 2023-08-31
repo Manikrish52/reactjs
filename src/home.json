@@ -2,15 +2,11 @@
     {
        "new":"new",
      "image":"http://localhost:3000/static/media/product-1.77df83befd34da1ae66b.webp",
-     "icon":"",
      "studiodesign":"STUDIO DESIGN",
      "productname":"Juicy Couture Juicy Quilted Ter..",
-     "ratestars":"",
+     "ratestars":4,
      "discountprice":18.90,
-     "orgnalprice":34.21,
-      "crossicon":"",
-     "hearticon":"",
-     "cart":""
+     "orgnalprice":34.21
 },
  {
        "new":"new",

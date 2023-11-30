@@ -1,128 +1,147 @@
-export const Productitems=[
-    {
-       "new":"new",
-     "image":"http://localhost:3000/static/media/product-1.77df83befd34da1ae66b.webp",
-     "hoverimage":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
-     "productcategory":"Fresh Mango",
-     "productname":"Juicy Couture Juicy Quilted Ter..",
-     "ratestars":4,
-     "discountprice":18.90,
-     "orgnalprice":34.21
-},
- {
-       "new":"new",
-     "image":"http://localhost:3000/static/media/product-2.be27eda3a886d1e603a5.webp",
-      "hoverimage":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
-      "productcategory":"Fresh Juice",
-     "productname":"New Balance Fresh Foam Ka..",
-           "ratestars":3,
-      "discountprice":15.12,
-     "orgnalprice":18.90,
-   
-},
- {
-       "new":"new",
-     "image":"http://localhost:3000/static/media/product-3.8bde60115102cc279829.webp",
-     "hoverimage":"http://localhost:3000/static/media/product-4.2f7bea4078eaff9324bf.webp",
-      "productcategory":"GRAPHIC CORNER",
-     "productname":"Brixton Patrol All Terrain Ano..",
-    "ratestars":5,
-     "orgnalprice":18.90
- },
- {
-       "new":"new",
-     "image":"http://localhost:3000/static/media/product-5.f16a21f9b0ec4427f871.webp",
-     "hoverimage":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
-     "productcategory":"GRAPHIC CORNER",
-     "productname":"Juicy Couture Tricot Logo Strip..",
-           "ratestars":5,
-     "orgnalprice":18.90,
-},
- {
-       "new":"new",
-     "image":"http://localhost:3000/static/media/product-6.b71a386fe46abf32e458.webp",
-     "hoverimage":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
-     "icon":"",
-     "studiodesign":"STUDIO DESIGN",
-     "productname":"New Balance Arishi Sport v1",
-     "ratestars":4,
-     "orgnalprice":18.90,
- },
+export const Productitems = [
+  {
+    new: "new",
+    image:
+      "http://localhost:3000/static/media/product-1.77df83befd34da1ae66b.webp",
+    hoverimage:
+      "http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+    productcategory: "Fresh Mango",
+    productname: "Juicy Couture Juicy Quilted Ter..",
+    ratestars: 4,
+    discountprice: 18.9,
+    orgnalprice: 34.21,
+  },
+  {
+    new: "new",
+    image:
+      "http://localhost:3000/static/media/product-2.be27eda3a886d1e603a5.webp",
+    hoverimage:
+      "http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+    productcategory: "Fresh Juice",
+    productname: "New Balance Fresh Foam Ka..",
+    ratestars: 3,
+    discountprice: 15.12,
+    orgnalprice: 18.9,
+  },
+  {
+    new: "new",
+    image:
+      "http://localhost:3000/static/media/product-3.8bde60115102cc279829.webp",
+    hoverimage:
+      "http://localhost:3000/static/media/product-4.2f7bea4078eaff9324bf.webp",
+    productcategory: "GRAPHIC CORNER",
+    productname: "Brixton Patrol All Terrain Ano..",
+    ratestars: 5,
+    orgnalprice: 18.9,
+  },
+  {
+    new: "new",
+    image:
+      "http://localhost:3000/static/media/product-5.f16a21f9b0ec4427f871.webp",
+    hoverimage:
+      "http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+    productcategory: "GRAPHIC CORNER",
+    productname: "Juicy Couture Tricot Logo Strip..",
+    ratestars: 5,
+    orgnalprice: 18.9,
+  },
+  {
+    new: "new",
+    image:
+      "http://localhost:3000/static/media/product-6.b71a386fe46abf32e458.webp",
+    hoverimage:
+      "http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+    icon: "",
+    studiodesign: "STUDIO DESIGN",
+    productname: "New Balance Arishi Sport v1",
+    ratestars: 4,
+    orgnalprice: 18.9,
+  },
 
- {
-       "new":"new",
-     "image":"http://localhost:3000/static/media/product-7.f9b283f78a0156ea1562.webp",
-     "hoverimage":"http://localhost:3000/static/media/product-8.bbdf080b3c3e747ba680.webp",
-     "productcategoryn":"GRAPHIC CORNAR",
-     "productname":"Fila Locker Room Varsity Jacket",
-    "ratestars":5,
-     "orgnalprice":18.90,
-},
+  {
+    new: "new",
+    image:
+      "http://localhost:3000/static/media/product-7.f9b283f78a0156ea1562.webp",
+    hoverimage:
+      "http://localhost:3000/static/media/product-8.bbdf080b3c3e747ba680.webp",
+    productcategoryn: "GRAPHIC CORNAR",
+    productname: "Fila Locker Room Varsity Jacket",
+    ratestars: 5,
+    orgnalprice: 18.9,
+  },
 
- {
-       "new":"new",
-     "image":"http://localhost:3000/static/media/product-9.8e7cab14ed958836ba92.webp",
-     "hoverimage":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
-     "productcategory":"Studio design",
-     "productname":"Water And Wind Resistant Ins..",
-     
-     "orgnalprice":18.90,
-    }, {
-       "new":"new",
-     "image":"http://localhost:3000/static/media/product-10.396b7bb2b5c2f2331cf2.webp",
-     "hoverimage":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
-     "productcategory":"STUDIO DESIGN",
-     "productname":"New Luxury Men's Slim Fit Shi..",
-           "ratestars":3,
-     "orgnalprice":29.00,
-   
-},
+  {
+    new: "new",
+    image:
+      "http://localhost:3000/static/media/product-9.8e7cab14ed958836ba92.webp",
+    hoverimage:
+      "http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+    productcategory: "Studio design",
+    productname: "Water And Wind Resistant Ins..",
 
- {
-       "new":"new",
-     "image":"http://localhost:3000/static/media/product-11.fc223d285a07e560948c.webp",
-    "hoverimage":"http://localhost:3000/static/media/product-12.4898eacf736bc9c9f196.webp",
-     "productcategory":"Studio design",
-     "productname":"Originals Kaval Windbreaker..",
-         "ratestars":3,
-     "discountprice":21.51,
-     "orgnalprice":23.90
-    
-},
+    orgnalprice: 18.9,
+  },
+  {
+    new: "new",
+    image:
+      "http://localhost:3000/static/media/product-10.396b7bb2b5c2f2331cf2.webp",
+    hoverimage:
+      "http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+    productcategory: "STUDIO DESIGN",
+    productname: "New Luxury Men's Slim Fit Shi..",
+    ratestars: 3,
+    orgnalprice: 29.0,
+  },
 
- {
-       "new":"new",
-     "image":"http://localhost:3000/static/media/product-4.2f7bea4078eaff9324bf.webp",
-     "hoverimage":"http://localhost:3000/static/media/product-3.8bde60115102cc279829.webp",
-     "productcategory":"STUDIO DESIGN",
-     "productname":"Brixton Patrol All Terrain Anor..",
-        "ratestars":5,
-     "orgnalprice":18.90
-   
-},
- {
-       "new":"new",
-     "image":"http://localhost:3000/static/media/product-14.8a657db814e2a91754b0.webp",
-     "hoverimage":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
-     "studiodesign":"STUDIO DESIGN",
-     "productname":"Madden By Steve Madden Cale 6",
-         "ratestars":5,
-     "discountprice":10.12,
-     "orgnalprice":11.90
-   
-},
- {
-    "new":"new",
-     "image":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
-    "hoverimage":"http://localhost:3000/static/media/product-2.be27eda3a886d1e603a5.webp",
-    "studiodesign":"STUDIO DESIGN",
-     "productname":"Madden By Steve Madden Cale 6",
-     "ratestars":"3",
-     "discountprice":10.12,
-     "orgnalprice":35.90
-}
+  {
+    new: "new",
+    image:
+      "http://localhost:3000/static/media/product-11.fc223d285a07e560948c.webp",
+    hoverimage:
+      "http://localhost:3000/static/media/product-12.4898eacf736bc9c9f196.webp",
+    productcategory: "Studio design",
+    productname: "Originals Kaval Windbreaker..",
+    ratestars: 3,
+    discountprice: 21.51,
+    orgnalprice: 23.9,
+  },
 
-]
+  {
+    new: "new",
+    image:
+      "http://localhost:3000/static/media/product-4.2f7bea4078eaff9324bf.webp",
+    hoverimage:
+      "http://localhost:3000/static/media/product-3.8bde60115102cc279829.webp",
+    productcategory: "STUDIO DESIGN",
+    productname: "Brixton Patrol All Terrain Anor..",
+    ratestars: 5,
+    orgnalprice: 18.9,
+  },
+  {
+    new: "new",
+    image:
+      "http://localhost:3000/static/media/product-14.8a657db814e2a91754b0.webp",
+    hoverimage:
+      "http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+    studiodesign: "STUDIO DESIGN",
+    productname: "Madden By Steve Madden Cale 6",
+    ratestars: 5,
+    discountprice: 10.12,
+    orgnalprice: 11.9,
+  },
+  {
+    new: "new",
+    image:
+      "http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+    hoverimage:
+      "http://localhost:3000/static/media/product-2.be27eda3a886d1e603a5.webp",
+    studiodesign: "STUDIO DESIGN",
+    productname: "Madden By Steve Madden Cale 6",
+    ratestars: "3",
+    discountprice: 10.12,
+    orgnalprice: 35.9,
+  },
+];
 
 export const regFormFullData = [
   {
@@ -156,7 +175,7 @@ export const regFormFullData = [
     value: "",
     required: true,
     helpertext: "Max 30 characters allowed",
-    maxCharacters: 30
+    maxCharacters: 30,
   },
   {
     valid: true,
@@ -169,7 +188,7 @@ export const regFormFullData = [
     value: "",
     required: true,
     helpertext: "Max 30 characters allowed",
-    maxCharacters: 30
+    maxCharacters: 30,
   },
   {
     valid: true,
@@ -182,7 +201,7 @@ export const regFormFullData = [
     value: "A123%b123",
     required: true,
     helpertext: "Max 30 characters allowed",
-    maxCharacters: 30
+    maxCharacters: 30,
   },
   {
     valid: true,
@@ -195,7 +214,7 @@ export const regFormFullData = [
     value: "",
     required: true,
     helpertext: "Max 50 characters allowed",
-    maxCharacters: 50
+    maxCharacters: 50,
   },
   {
     valid: true,
@@ -272,7 +291,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 50 characters allowed",
-    maxCharacters: 50
+    maxCharacters: 50,
   },
   {
     valid: true,
@@ -285,7 +304,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 50 characters allowed",
-    maxCharacters: 50
+    maxCharacters: 50,
   },
   {
     valid: true,
@@ -298,7 +317,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 50 characters allowed",
-    maxCharacters: 50
+    maxCharacters: 50,
   },
   {
     valid: true,
@@ -311,7 +330,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 10 numbers are allowed",
-    maxCharacters: 10
+    maxCharacters: 10,
   },
   {
     valid: true,
@@ -324,7 +343,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 30 characters allowed",
-    maxCharacters: 30
+    maxCharacters: 30,
   },
   {
     valid: true,
@@ -337,7 +356,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Only numbers allowed. E.g., 2.",
-    maxCharacters: 2
+    maxCharacters: 2,
   },
   {
     valid: true,
@@ -350,7 +369,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Only numbers allowed. E.g., 2.",
-    maxCharacters: 2
+    maxCharacters: 2,
   },
   {
     valid: true,
@@ -363,7 +382,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 30 characters allowed",
-    maxCharacters: 30
+    maxCharacters: 30,
   },
   {
     valid: true,
@@ -387,7 +406,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 1500 characters allowed",
-    maxCharacters: 1500
+    maxCharacters: 1500,
   },
   {
     valid: true,
@@ -400,7 +419,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 1500 characters allowed",
-    maxCharacters: 1500
+    maxCharacters: 1500,
   },
   {
     valid: true,
@@ -413,7 +432,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 50 characters allowed",
-    maxCharacters: 50
+    maxCharacters: 50,
   },
   {
     valid: true,
@@ -426,7 +445,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 50 characters allowed",
-    maxCharacters: 50
+    maxCharacters: 50,
   },
   {
     valid: true,
@@ -439,7 +458,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 30 characters allowed",
-    maxCharacters: 30
+    maxCharacters: 30,
   },
   {
     valid: true,
@@ -452,7 +471,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 30 characters allowed",
-    maxCharacters: 30
+    maxCharacters: 30,
   },
   {
     valid: true,
@@ -465,7 +484,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 30 characters allowed",
-    maxCharacters: 30
+    maxCharacters: 30,
   },
   {
     valid: true,
@@ -478,7 +497,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 30 characters allowed",
-    maxCharacters: 30
+    maxCharacters: 30,
   },
   {
     valid: true,
@@ -491,7 +510,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 30 characters allowed",
-    maxCharacters: 30
+    maxCharacters: 30,
   },
   {
     valid: true,
@@ -504,7 +523,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 30 characters allowed",
-    maxCharacters: 30
+    maxCharacters: 30,
   },
   {
     valid: true,
@@ -517,7 +536,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Only numbers allowed. E.g., 20.",
-    maxCharacters: 2
+    maxCharacters: 2,
   },
   {
     valid: true,
@@ -530,7 +549,7 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Only numbers allowed. E.g., 30.",
-    maxCharacters: 2
+    maxCharacters: 2,
   },
   {
     valid: true,
@@ -543,6 +562,6 @@ export const regFormFullData = [
     value: "",
     required: false,
     helpertext: "Max 50 characters allowed",
-    maxCharacters: 50
+    maxCharacters: 50,
   },
-]
+];

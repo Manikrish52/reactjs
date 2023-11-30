@@ -1,7 +1,8 @@
 [
     {
        "new":"new",
-     "image":"http://localhost:3000/static/media/product-1.77df83befd34da1ae66b.webp",
+     "image":"https://htmldemo.net/ecolife/ecolife/assets/images/product-image/organic/product-1.jpg",
+      "hoverimage":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
      "studiodesign":"STUDIO DESIGN",
      "productname":"Juicy Couture Juicy Quilted Ter..",
      "ratestars":4,
@@ -31,6 +32,7 @@
      "productname":"Brixton Patrol All Terrain Ano..",
      "ratestars":"",
      "orgnalprice":18.90,
+      "discountprice":15.12,
      "cart":"",
      "crossicon":"",
      "hearticon":""
@@ -38,11 +40,14 @@
  {
        "new":"new",
      "image":"http://localhost:3000/static/media/product-5.f16a21f9b0ec4427f871.webp",
+      "hoverimage":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+
      "icon":"",
      "studiodesign":"GRAPHIC CORNER",
      "productname":"Juicy Couture Tricot Logo Strip..",
      "ratestars":"",
      "orgnalprice":18.90,
+      "discountprice":15.12,
      "cart":"",
      "crossicon":"",
      "hearticon":""
@@ -50,11 +55,14 @@
  {
        "new":"new",
      "image":"http://localhost:3000/static/media/product-6.b71a386fe46abf32e458.webp",
+      "hoverimage":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+
      "icon":"",
      "studiodesign":"STUDIO DESIGN",
      "productname":"New Balance Arishi Sport v1",
      "ratestars":"",
      "orgnalprice":18.90,
+      "discountprice":15.12,
      "cart":"",
      "crossicon":"",
      "hearticon":""
@@ -69,6 +77,7 @@
      "productname":"Fila Locker Room Varsity Jacket",
      "ratestars":"",
      "orgnalprice":18.90,
+      "discountprice":15.12,
      "cart":"",
      "crossicon":"",
      "hearticon":""
@@ -77,22 +86,28 @@
  {
        "new":"new",
      "image":"http://localhost:3000/static/media/product-9.8e7cab14ed958836ba92.webp",
+      "hoverimage":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+
      "icon":"",
      "studiodesign":"Studio design",
      "productname":"Water And Wind Resistant Ins..",
      "ratestars":"",
      "orgnalprice":18.90,
+      "discountprice":15.12,
      "cart":"",
      "crossicon":"",
      "hearticon":""
 }, {
        "new":"new",
      "image":"http://localhost:3000/static/media/product-10.396b7bb2b5c2f2331cf2.webp",
+      "hoverimage":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+
      "icon":"",
      "studiodesign":"STUDIO DESIGN",
      "productname":"New Luxury Men's Slim Fit Shi..",
      "ratestars":"",
      "orgnalprice":"29.00",
+      "discountprice":15.12,
      "cart":"",
      "crossicon":"",
      "hearticon":""
@@ -121,7 +136,7 @@
      "studiodesign":"STUDIO DESIGN",
      "productname":"Brixton Patrol All Terrain Anor..",
      "ratestars":"",
-     "discountprice":"",
+     "discountprice":21.51,
      "orgnalprice":18.90,
      "cart":"",
      "crossicon":"",
@@ -130,6 +145,8 @@
  {
        "new":"new",
      "image":"http://localhost:3000/static/media/product-14.8a657db814e2a91754b0.webp",
+      "hoverimage":"http://localhost:3000/static/media/product-15.8402aa2e613a89978c71.webp",
+
      "icon":"",
      "studiodesign":"STUDIO DESIGN",
      "productname":"Madden By Steve Madden Cale 6",
